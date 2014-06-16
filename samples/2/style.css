@@ -1,0 +1,303 @@
+body {
+font: 1em/1 Georgia, sans-serif;
+background: #fff;
+margin: 0;
+padding: 0;
+}
+ul {
+margin: 0;
+padding: 0;
+}
+div.clear {
+clear: both;
+}
+.picture {
+border: 5px solid #fff;
+box-shadow: 0 0px 5px #999;
+background: #eee;
+}
+h1, h2, h3, h4, h5, h6, p {
+margin: 0;
+font: 1em/1.2 Georgia, serif;
+}
+h1 {
+font: 4em/1 Georgia, sans-serif;
+}
+h1.title {
+font: 7em/.8 Georgia, sans-serif;
+text-shadow: 0 1px #AAA;
+margin: 0 0 20px 0;
+}
+h2 {
+font: 2em/1 Georgia, sans-serif;
+}
+p {
+font: 1em/1.5 Georgia, serif;
+}
+
+
+
+
+
+.icon {
+width: 70px;
+height: 45px;
+position: fixed;
+top: 0%;
+left: 10px;
+background: #FF8484;
+transition: background-color 200ms ease-in-out;
+z-index: 1338;
+display: none;
+}
+.icon:before {
+content: "";
+position: absolute;
+top: -10px;
+left: 15px;
+border: 20px solid transparent;
+border-bottom-color: #D85252;
+}
+.icon:hover {
+background: #D85252;
+cursor: pointer;
+}
+.icon:hover:before {
+border-bottom-color: #FF8484;
+}
+
+
+#header {
+width: 100%;
+height: 900px;
+position: relative;
+border-bottom: 1px solid #AAA;
+}
+.headerimage {
+background: url("Penguins.jpg") no-repeat;
+background-size: 100%;
+position: absolute;
+left: 0;
+top: 0;
+width: 100%;
+height: 100%;
+}
+#headerhold {
+width: 100%;
+height: 901px;
+}
+#header .content {
+position: absolute;
+top: 50%;
+left: 50%;
+margin: -150px 0 0 -250px;
+width: 500px;
+height: 300px;
+color: #fff;
+text-align: center;
+}
+#header .stripes {
+position: absolute;
+top: 40%;
+padding: 10px;
+border-top: 3px solid #FFF;
+border-bottom: 3px solid #FFF;
+width: 30%;
+}
+#header .stripes .middle {
+border-top: 10px dotted #FFF;
+width: 100%;
+height: 0;
+}
+#header .stripes.left {
+left: 0;
+}
+#header .stripes.right {
+right: 0;
+}
+
+
+
+
+.navmenu {
+padding: 15px 0;
+width: 350px;
+margin: auto;
+}
+.navmenu.fixed {
+position: fixed;
+top: 0;
+left: 50%;
+width: 350px;
+margin: 0 0 0 -175px;
+z-index: 1337;
+}
+.navmenu.white ul li a {
+text-shadow: none;
+color: #000;
+box-shadow: none;
+transition: all 200ms ease-in-out;
+}
+.navmenu ul li {
+display: inline-block;
+list-style-type: none;
+}
+.navmenu ul li a {
+text-decoration: none;
+padding: 10px;
+color: #fff;
+font: 1em/1 Helvetica, sans-serif;
+text-shadow: 0 0 10px #000;
+border-radius: 5px;
+transition: all 200ms ease-in-out;
+box-shadow: 0 3px 10px rgba(0,0,0,0.5);
+}
+.navmenu ul li a:hover {
+background: rgba(255,255,255, 0.2);
+box-shadow: 0 1px 7px rgba(0,0,0,0.5);
+}
+.navmenu ul li a:active {
+box-shadow: 0 0 0, inset 0 3px 10px rgba(0,0,0,0.5);
+}
+.navmenu.white ul li a:hover {
+box-shadow: none;
+background: #D13A26;
+color: #fff;
+}
+.navbar {
+width: 100%;
+height: 45px;
+position: fixed;
+top: 0;
+background: #FFE1D2;
+display: none;
+z-index: 1336;
+}
+
+
+
+
+.container {
+width: 80%;
+margin: 200px auto;
+padding: 100px 0;
+position: relative;
+}
+
+#soWhat .pictureset {
+width: 50%;
+height: 300px;
+float: left;
+position: relative;
+}
+#soWhat .picture {
+position: absolute;
+}
+#soWhat .picture.one {
+background: url("Penguins.jpg") 10% 20% no-repeat;
+background-size: 200%;
+width: 300px; 
+height: 300px;
+top: 0;
+left: 0;
+}
+#soWhat .picture.two {
+background: url("Penguins.jpg") 50% 30% no-repeat;
+background-size: 400%;
+width: 200px;
+height: 200px;
+right: 0;
+top: 40px;
+}
+#soWhat .picture.three {
+background: url("Penguins.jpg") 60% 80% no-repeat;
+background-size: 500%;
+width: 100px;
+height: 100px;
+top: 100%;
+right: 20px;
+}
+#soWhat .content {
+padding: 20px;
+width: 45%;
+float: right;
+}
+
+
+
+
+#Support .left {
+	float: left;
+	width: 40%;
+}
+#Support .left button {
+margin: 20%;
+width: 60%;
+height: 100px;
+background: #D13A26;
+color: #FCFCFC;
+font: 2em/1 Helvetica, sans-serif;
+border: none;
+border-bottom: 3px solid #A33021;
+border-radius: 10px;
+transition: background-color 200ms ease-in-out;
+}
+#Support .left button:hover {
+background: #FC6350;
+color: #FFF;
+}
+#Support .left button:active {
+margin-top: 21%;
+border: none;
+}
+#Support .content {
+float: right;
+width: 55%;
+padding: 20px;
+}
+
+
+
+#Gift h2 {
+color: #AAA;
+}
+#Gift .full {
+background: url('Penguins.jpg') no-repeat;
+background-size: 100%;
+margin: 20px 0;
+position: relative;
+width: 125%;
+height: 300px;
+left: -12.5%;
+box-shadow: inset 0 0 50px rgba(0,0,0,0.4);
+
+}
+#Gift .one {
+float: left;
+width: 31%;
+padding: 1%;
+}
+#Gift .two {
+float: left;
+width: 31%;
+padding: 1%;
+}
+#Gift .three {
+float: left;
+width: 31%;
+padding: 1%;
+}
+
+
+
+
+#footer {
+margin: 300px 0 0 0;
+width: 100%;
+height: 20px;
+padding: 20px 0;
+border-top: 5px dashed #FFF;
+background: #CBE8FF;
+text-align: center;
+color: #30729E;
+}

@@ -1,0 +1,275 @@
+body {
+font: 1em/1 Helvetica, sans-serif;
+margin: 0;
+padding: 0;
+background: url(grain.jpg) repeat;
+}
+html {
+margin: 0;
+padding: 0;
+}
+div.clear {
+clear: both;
+}
+h1, h2, h3, h4, h5, h6, p {
+margin: 0;
+}
+h1.title {
+font: 2em/1 Helvetica;
+color: #fff;
+text-shadow: 0 1px rgba(0,0,0, 0.5);
+}
+div, a {
+transition: all 200ms ease-in-out;
+}
+ul {
+margin: 0;
+padding: 0;
+}
+
+
+#bodyover {
+background: #18112B;
+z-index: -1337;
+opacity: .9;
+width: 100%;
+height: 100%;
+position: fixed;
+top: 0;
+left: 0;
+}
+.container {
+margin: auto;
+width: 1000px;
+}
+
+
+
+div.title {
+padding: 20px 10px;
+background: #B11515;
+width: 300px;
+float: left;
+box-shadow: 0 5px 10px #000;
+margin: 0 0 10px 0;
+}
+#header {
+padding: 0 20px;
+}
+div.search {
+height: 35px;
+border-radius: 10px;
+float: right;
+margin: 12.5px;
+}
+input.search {
+width: 60px;
+height: 100%;
+padding: 0 7px;
+float: left;
+border: none;
+background: #FFF;
+border-radius: 5px 0 0 5px;
+box-shadow: inset 0 2px 10px #999;
+transition: width 500ms ease-in-out;
+}
+input.search:focus {
+width: 190px;
+outline: none;
+}
+button.search {
+background: #9C7ACE url('search.png') 100% no-repeat;
+background-size: 100%;
+padding: 0 5px;
+border: none;
+width: 45px;
+height: 100%;
+float: right;
+border-radius: 0 5px 5px 0;
+transition: all 200ms ease-in-out;
+}
+button.search:hover {
+background-color: #D3C2FF;
+}
+
+
+
+
+#navbar {
+background: #4A3861;
+box-shadow: 0 2px 15px #000;
+}
+#navbar ul {
+float: left;
+}
+#navbar li {
+list-style-type: none;
+display: inline-block;
+position: relative;
+padding: 10px;
+background: #9C7ACE;
+margin: 0 55px 0 0;
+transition: padding 200ms ease-in-out;
+}
+#navbar ul li a {
+line-height: 40px;
+text-decoration: none;
+color: #333;
+text-shadow: 0 1px #D7ADFF;
+font: 24px/1.7 Helvetica;
+}
+#navbar ul li a:before {
+content: "";
+position: absolute;
+right: 100%;
+top: 0;
+border: 30px solid #9C7ACE;
+border-top-color: transparent;
+border-left-color: transparent;
+}
+#navbar ul li a:after {
+content: "";
+position: absolute;
+left: 100%;
+top: 0;
+border: 30px solid #9C7ACE;
+border-bottom-color: transparent;
+border-right-color: transparent;
+}
+#navbar ul li:first-child a:before {
+border: none;
+}
+#navbar ul li:hover {
+background: #BA9DE6;
+padding: 10px 30px;
+}
+#navbar ul li:hover a:before {
+border: 30px solid #BA9DE6;
+border-top-color: transparent;
+border-left-color: transparent;
+
+}
+#navbar ul li:hover a:after {
+border: 30px solid #BA9DE6;
+border-bottom-color: transparent;
+border-right-color: transparent;
+}
+#navbar ul li:first-child:hover a:before {
+border: none;
+}
+
+
+.content {
+margin: 10px 0 200px 0;
+display: block;
+}
+.show {
+width: 59%;
+height: 348px;
+margin: 0.5%;
+float: left;
+box-shadow: 0 5px 10px #000;
+position: relative;
+overflow: hidden;
+}
+.show li {
+list-style: none;
+width: 100%;
+height: 100%;
+}
+.show ul li {
+float: left;
+}
+.show ul {
+width: 100%;
+height: 100%;
+position: relative;
+}
+.plate {
+width: 15%;
+height: 130px;
+padding: 2%;
+margin: 0.5%;
+float: left;
+position: relative;
+box-shadow: 0 5px 10px #000;
+}
+.plate:hover {
+box-shadow: 0 0 0 #000, inset 0 0 30px rgba(0,0,0, 0.7);
+}
+.plate:hover .name {
+opacity: 0;
+}
+.plate:hover .description {
+display: block;
+}
+.plate .name {
+width: 90%;
+position: absolute;
+left: 0;
+bottom: 0%;
+height: 20%;
+background: rgba(255,255,255, 0.5);
+color: #000;
+margin: 0 5%;
+}
+.plate .name h6 {
+font: 1em/1 Helvetica;
+margin: 10px;
+text-shadow: 0 1px #fff;
+white-space: nowrap;
+overflow: hidden;
+text-overflow: ellipsis;
+}
+.plate .description {
+position: absolute;
+left: 90%;
+top: 10%;
+width: 300px;
+padding: 10%;
+background: #C94343;
+z-index: 1337;
+display: none;
+box-shadow: 0 0 20px #000;
+text-shadow: 0 1px #F58181;
+}
+.plate .description:before {
+content: "";
+position: absolute;
+top: 20%;
+right: 100%;
+border: 10px solid #C94343;
+border-top-color: transparent;
+border-left-color: transparent;
+border-bottom-color: transparent;
+}
+.titlebar {
+width: 95%;
+background: #6C568D;
+float: left;
+padding: 20px 2%;
+margin: 0.5%;
+box-shadow: 0 5px 10px #000;
+color: #FFF;
+text-shadow: 0 -1px #311753;
+position: relative;
+}
+.titlebar:before {
+content: "";
+position: absolute;
+top: 0;
+right: 10px;
+width: 10px;
+height: 100%;
+background:#9C7ACE;
+}
+#footer {
+width: 96%;
+background: #6C568D;
+padding: 10px 2%;
+color: #FFF;
+text-shadow: 0 -1px #311753;
+border-top: 3px solid #9C7ACE;
+text-align: center;
+font: 1.3em/1 Helvetica
+}

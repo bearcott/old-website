@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Portfolio of Bear Cott | Templates</title>
+    <meta charset="utf-8">
+    <style>
+        @font-face {
+            font-family: "Bitter";
+            font-weight: normal;
+            src: url('/fonts/Bitter-Regular.ttf');
+        }
+        body {
+            text-align: center;
+            padding: 0;
+            margin: 0;
+            color: #FFF;
+        }
+        a {
+            color: #FFF;
+            transition: all 200ms ease-in-out;
+        }
+        a:hover img {
+            top: -5px;
+            width: 160px;
+            height: 160px;
+        }
+        .background {
+            position: fixed;
+            margin: 0;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: url('/static/background.jpg') center no-repeat;
+            background-size: cover;
+        }
+        section div {
+            margin: 10px;
+            width: 200px;
+            display: inline-block;
+            font: 1em/1 Helvetica;
+            text-align: center;
+            vertical-align: top;
+        }
+        section {
+            position: absolute;
+            right: 0;
+            top: 0;
+            padding: 120px;
+            padding-right: 5%;
+            width: 50%;
+            text-align: center;
+        }
+        img {
+            width: 150px;
+            height: 150px;
+            background: #eee;
+            border-radius: 10%;
+            border: 5px solid #ccc;
+            box-shadow: 0 -1px #FFF;
+            transition: all 200ms ease-in-out;
+            top: 0;
+            position: relative;
+        }
+        h1 {
+            position: fixed;
+            width: 30%;
+            height: 200px;
+            left: 0;
+            top: 50%;
+            color: #FFF2A9;
+            margin:0 3% 0 7%;
+            margin-top: -100px;
+            font: 3em/1.5 Bitter;
+        }
+        .border {
+            height: 72%;
+            margin: 7% 0;
+            position: fixed;
+            left: 43%;
+            border-left: 2px dashed rgba(255,255,255,0.5);
+        }
+        h1 span {
+            font-size: 0.7em;
+        }
+    </style>
+</head>
+<body>
+    <div class="background"></div>
+    <h1><span>A Collection Of</span> Template Samples</h1>
+    <div class="border"></div>
+    <section>
+        <a href="2"><div>
+            <img src="2.jpg">
+            <h2>Icy Welcome (Landing Page)</h2>
+        </div></a>
+        <a href="1"><div>
+            <img src="1.jpg">
+            <h2>Warm Oak (Blog)</h2>
+        </div></a>
+        <a href="5"><div>
+            <img src="5.jpg">
+            <h2>Friendly Haven (Another Blog)</h2>
+        </div></a>
+        <a href="3"><div>
+            <img src="3.jpg">
+            <h2>Game Site</h2>
+        </div></a>
+        <a href="4"><div>
+            <img src="4.jpg">
+            <h2>Campaign Test</h2>
+        </div></a>
+    </section>
+</body>
+</html>
