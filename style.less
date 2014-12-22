@@ -127,7 +127,7 @@ header {
                 margin: 0;
                 letter-spacing: 3px;
                 color: #FFF;
-    			text-shadow: 0 0 10px rgba(0,0,0,0.2);
+    			text-shadow: 0 3px rgba(0,0,0,0.1);
     			text-align: left;
                 text-transform: none;
             }
@@ -154,7 +154,7 @@ header {
             left: 50%;
         }
         .line, .down {
-        	transition: border-color 200ms ease-in-out, color 200ms ease-in-out;
+        	transition: border-color 200ms ease-in-out, color 200ms ease-in-out, bottom 200ms ease-in-out;
         }
         .moveable {
         	transition: all 200ms ease-in-out;
@@ -166,8 +166,8 @@ header {
             border: 3px solid #FFF;
             margin-left: -33px;
             &:hover {
-                    border-color: rgba(255,255,255,0.7);
-                    color: rgba(255,255,255,0.7);
+                border-color: rgba(255,255,255,0.7);
+                color: rgba(255,255,255,0.7);
             }
         }
         .down:hover, .down:hover + .line {
@@ -192,11 +192,13 @@ header {
                 color: #FFF;
                 border-radius: 5px;
                 box-shadow: 0 3px 5px rgba(0,0,0,0.1);
-                transition: none;
-                transition: all 200ms ease-in-out;
+                transition: 
+                    box-shadow 200ms ease-in-out,
+                    margin-top 200ms ease-in-out,
+                    background 200ms ease-in-out;
                 &:hover {
                         box-shadow: 0 0 0 transparent;
-                        background: rgba(230,230,230, 0.1);
+                        background: rgba(200,200,200, 0.1);
                         margin-top: 1px;
                 }
                 i {
