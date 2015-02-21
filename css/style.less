@@ -1,32 +1,21 @@
+@import url('lesshat.less');
 @font-face {
         font-family: "Lato";
         font-weight: normal;
-        src: url('fonts/Lato-Regular.ttf');
+        src: url('/fonts/Lato-Regular.ttf');
 }
 @font-face {
         font-family: "Lato";
         font-weight: 100;
-        src: url('fonts/Lato-Light.ttf');
+        src: url('/fonts/Lato-Light.ttf');
 }
 @font-face {
         font-family: "Lato";
         font-weight: bold;
-        src: url('fonts/Lato-Bold.ttf');
-}
-.transform(@what) {
-	transform: @what;
-	-moz-transform: @what;
-	-o-transform: @what;
-	-ms-transform: @what;
-	-webkit-transform: @what;
+        src: url('/fonts/Lato-Bold.ttf');
 }
 .clear {
 	clear: both;
-}
-.transform(@s) {
-        -webkit-transform: @s;
-        -moz-transform: @s;
-        transform: @s;
 }
 body {
         background: #FFF8E7;
@@ -102,11 +91,17 @@ a {
 
 
 header {
-        background: url('/static/background.jpg') no-repeat center;
-        background-size: cover;
         text-align: center;
         height: 900px;
         overflow: hidden;
+        .background {
+            background: url('/img/background.jpg') no-repeat center;
+            background-size: cover;
+            position: absolute;
+            height: 100%;
+            width: 100%;
+            z-index: 0;
+        }
         .title {
             width: 30em;
             height: 8em;
@@ -208,36 +203,43 @@ header {
         & > * {
                 z-index: 10;
         }
-        /*
         .triangle {
-                border: 60px solid transparent;
-                border-bottom-color: rgba(255,255,255,0.2);
+                border: 30px solid transparent;
+                border-bottom-color: rgba(255,255,255,0.1);
                 position: absolute;
                 top: 100%;
+                left: 100%;
                 z-index: 1;
-                .transform(rotate(-45deg));
         }
-        */
 }
 .table {
-        height: 70px;
-        background: url('static/icons/wood.png');
+        height: 160px;
+        background: url('/img/icons/wood.png');
         background-size: contain;
-        box-shadow: 0 -60px 120px rgba(0,0,0,.3);
+        box-shadow: 0 -20px 40px rgba(0,0,0,0.1);
         .coffee {
                 width: 250px;
                 height: 200px;
                 position: absolute;
                 top: -190px;
                 left: 15%;
-                background: url('static/icons/coffee.png');
+                background: url('/img/icons/coffee.svg');
                 background-size: contain;
                 background-repeat: no-repeat;
                 z-index: 10;
         }
+        .curves {
+            height: 60px;
+            background: url('/img/icons/woodcurve.png');
+            background-size: contain;
+            width: 100%;
+            position: absolute;
+            top: 100%;
+        }
 }
 #about {
         padding: 4em 0;
+        .background-image(linear-gradient(0deg,#446FA8,#0196BD 80%));
         .line {
         	margin: auto;
         	width: 50%;
@@ -250,7 +252,7 @@ header {
             z-index: 1;
         }
         .background {
-            background: url('/static/icons/setting.jpg') repeat-x;
+            background: url('/img/icons/setting.jpg') repeat-x;
             position: absolute;
             top: 50%;
             width: 100%;
@@ -258,6 +260,31 @@ header {
             margin-top: -200px;
             background-size: cover;
         }
+        .waves {
+            overflow: hidden;
+            width: 100%;
+            height: 200px;
+            position: absolute;
+            top: -110px;
+        }
+        .wave {
+            position: absolute;
+            height: 100px;
+            width: 120%;
+            left: -10%;
+            background-size: 600px 100px;
+        }
+        .wave.back {
+            background-image: url('/img/icons/waveback.svg');
+            .animation(waveback 4s 0.5s infinite);
+        }
+        .wave.fore {
+            top: 50px;
+            background-image: url('/img/icons/wavefore.svg');
+            .animation(wavefore 4s infinite);
+        }
+        .keyframes(~'wavefore, 0% {transform: translate3d(0,0,0)} 50% {transform: translate3d(40px,0,0)} 100% {transform: translate3d(0,0,0)}');
+        .keyframes(~'waveback, 0% {transform: translate3d(0,0,0)} 50% {transform: translate3d(-40px,0,0)} 100% {transform: translate3d(0,0,0)}');
         .info {
             &.active {
                 opacity: 1;
@@ -347,7 +374,7 @@ header {
             }
             /*
             .setting {
-                background: url('/static/icons/setting.png') center no-repeat;
+                background: url('/img/icons/setting.png') center no-repeat;
                 background-size: contain;
                 position: absolute;
                 width: 300%;
@@ -357,7 +384,7 @@ header {
             }
             */
             .store {
-                background: url('/static/icons/storeBack.png') center no-repeat;
+                background: url('/img/icons/storeBack.png') center no-repeat;
                 height: 12em;
                 width: 15em;
                 background-size: contain;
@@ -368,7 +395,7 @@ header {
                     transition: 500ms all ease-in-out;
                 }
                 .shade {
-                    background: url('/static/icons/storeShades.png') no-repeat;
+                    background: url('/img/icons/storeShades.png') no-repeat;
                     position: absolute;
                     top: 3.1em;
                     left: 4%;
@@ -385,7 +412,7 @@ header {
                     background: #ffdaa4;
                 }
                 .man {
-                    background: url('/static/icons/man.png') center no-repeat;
+                    background: url('/img/icons/man.png') center no-repeat;
                     position: absolute;
                     top: 18%;
                     left: 10%;
@@ -425,7 +452,7 @@ header {
         margin-bottom: 50px;
         display: inline-block;
         vertical-align: top;
-        position: static;
+        position: relative;
         font-size: 16pt;
         .plate {
             width: 200px;
