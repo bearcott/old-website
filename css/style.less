@@ -56,7 +56,20 @@ h1 {
 }
 p {
     position: absolute;
+    left: 0;
     bottom: 0;
     margin: 20px;
-    text-align: center;
+}
+a {
+    color: #DD5959;
+    text-decoration: none;
+    font-size: 2em;
+    float: right;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    margin: 20px;
+    &:hover {
+        color: lighten(saturate(#DD5959,20%),5%);
+    }
 }
