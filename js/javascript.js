@@ -70,7 +70,10 @@ $.fn.extend({
             randomProperty : 1
         },{
             step : function(now,fx) {
-                var is = 'translate3d(' + (from[0]*(1-now)).toFixed(5) + 'px,' + (from[1]*(1-now)).toFixed(5) + 'px,'+ (from[2]*(1-now)).toFixed(5) + 'px)';
+                var is = 'translate3d('
+                  + (from[0]*(1-now)).toFixed(5) + 'px,'
+                  + (from[1]*(1-now)).toFixed(5) + 'px,'
+                  + (from[2]*(1-now)).toFixed(5) + 'px)';
                 $t.css({
                     'transform' : is,
                     '-webkit-transform' : is,
@@ -99,7 +102,7 @@ $(document).ready(function() {
     header.img = new Image();
     header.css('opacity',0);
     header.img.src = header.find('.background').css('background-image').replace(/^url\(["']?/, '').replace(/["']?\)$/, '');
-    
+
     //helper functions
     function flipword(thing, words) {
         var i = 0;
@@ -108,16 +111,24 @@ $(document).ready(function() {
             $(thing).animate({'bottom':'-=20px','opacity':0},'swing',function() {
                 $(this).html(w).css({'bottom':'20px'}).animate({'bottom':'0px','opacity':1},'swing');
             });
-            if (i >= words.length - 1) clearInterval(g);
+            if (i >= words.length - 1) i = 0;
             i++;
         },2000)
     }
-    function scrollTo(elem, offset) {
+    function scrollTo(elem, offset, swing) {
         var c,d;
         if (offset == undefined) offset = 0;
+        if (swing == undefined) swing = false
         c = $w.scrollTop();
         d = $(elem).offset().top;
-        $("html, body").animate({scrollTop : d + offset}, (Math.abs(c-d)*0.8),'swing');
+        if (swing)
+            $("html, body")
+              .animate({scrollTop : c + 150},1600,'swing')
+              .animate({scrollTop : d + offset}, (Math.abs(c-d)*0.8),'swing');
+        else
+            $("html, body")
+              .animate({scrollTop : d + offset}, (Math.abs(c-d)*0.8),'swing');
+
     }
     (function resize() {
         var he = (header.h < $w.h) ? header.h : $w.h;
@@ -156,8 +167,9 @@ $(document).ready(function() {
         header.find('.title').find('h1').slideIn({from:[0,-50,0],delay:1000,fade:true});
         header.find('.contact').slideIn({from:[0,-50,0],delay:1400,fade:true});
         table.find('.coffee').slideIn({from:'left',delay:1200},2500);
-    	
-        words = ['I make things.','I reddit.','I bake.','I bike.',"... annd",'did I mention I design?'];
+
+        fword = header.find('.title .word').html();
+        words = ['I make stuff.','I love jogging.',"I'm a cooking fanatic.","I'm a doodler.","I'm a hackathon hacker.","I'll say it again.",fword];
     	setTimeout(function() { //delay
             flipword(header.find('.fillin .word'),words);
         },1000);
@@ -167,8 +179,12 @@ $(document).ready(function() {
 
 
     //scroll to
-    $('a.down, a.scrollTo').click(function() {
-      scrollTo($(this).attr('href'));
+    $('a.down').click(function() {
+      scrollTo($(this).attr('href'),0,true);
+      return false;
+    })
+    $('a.scrollTo').click(function() {
+      scrollTo($(this).attr('href'),0);
       return false;
     })
 
