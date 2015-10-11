@@ -107,6 +107,14 @@ header {
             width: 100%;
             z-index: 0;
         }
+        .logo {
+          position: absolute;
+          top: 0;
+          left: 0;
+          width: 40px;
+          height: 40px;
+          background: url('/img/logo.svg')
+        }
         .title {
             height: 8em;
             width: 100%;
@@ -190,10 +198,10 @@ header {
           line-height: 30px;
           margin-top: 0;
           padding: 5px 20px;
-          background: rgba(255,255,255, 0.1);
+          background: none;
           color: #FFF;
           border-radius: 5px;
-          box-shadow: 0 3px 5px rgba(0,0,0,0.1);
+          box-shadow: 0 3px 10px rgba(0,0,0,0.2);
           transition:
               box-shadow 200ms ease-in-out,
               margin-top 200ms ease-in-out,
@@ -430,8 +438,8 @@ header {
         margin: 0.5em auto;
     }
     .wrapper {
-      width: 90%;
-      margin: 0 5%;
+      width: 80%;
+      margin: 0 10%;
       background: #FFFCF4;
     }
     .folders {

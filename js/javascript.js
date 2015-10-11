@@ -169,7 +169,7 @@ $(document).ready(function() {
         table.find('.coffee').slideIn({from:'left',delay:1200},2500);
 
         fword = header.find('.title .word').html();
-        words = ['I make stuff.','I love jogging.',"I'm a cooking fanatic.","I'm a hackathon hacker.","I'll say it again.",fword];
+        words = ['I make stuff.','I love jogging.',"I'm a cooking fanatic.","I'm a hackathon hacker.",fword];
     	setTimeout(function() { //delay
             flipword(header.find('.fillin .word'),words);
         },1000);
