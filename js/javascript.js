@@ -115,6 +115,7 @@ $(document).ready(function() {
             i++;
         },2000)
     }
+    /*
     function scrollTo(elem, offset, swing) {
         var c,d;
         if (offset == undefined) offset = 0;
@@ -130,12 +131,20 @@ $(document).ready(function() {
               .animate({scrollTop : d + offset}, (Math.abs(c-d)*0.8),'swing');
 
     }
-    (function resize() {
+    */
+
+    function resize() {
         var he = (header.h < $w.h) ? header.h : $w.h;
         header.height(he - 30);
         header.tt = he/2;
-    })();
+    };
+    resize();
+    $(window).resize(function() {
+        $w.h = $(window).height();
+        resize();
+    });
 
+    /*
     //when scrolling
     $w.scroll(function() {
         $w.t = $w.scrollTop();
@@ -158,36 +167,30 @@ $(document).ready(function() {
             }).css('opacity',(1-$w.t/header.h*2));
         }
     });
+    */
 
     //BEGIN STYLE ANIMATIONS
     //on header img ready
     header.img.onload = function() {
         header.animate({'opacity':1},500,'swing');
-        header.find('.line, .down').slideIn({from:[0,200,0],fade:true});
+        // header.find('.line, .down').slideIn({from:[0,200,0],fade:true});
         header.find('.title').find('h1').slideIn({from:[0,-50,0],delay:1000,fade:true});
         header.find('.contact').slideIn({from:[0,-50,0],delay:1400,fade:true});
         table.find('.coffee').slideIn({from:'left',delay:1200},2500);
 
         fword = header.find('.title .word').html();
         words = ['I make stuff.','I love jogging.',"I'm a cooking fanatic.","I'm a hackathon hacker.",fword];
-    	setTimeout(function() { //delay
+    	  setTimeout(function() { //delay
             flipword(header.find('.fillin .word'),words);
         },1000);
 
         $(header).css('background-position-y',0);
     }
+    $('.contact').click(function() {
 
+    });
 
-    //scroll to
-    $('a.down').click(function() {
-      scrollTo($(this).attr('href'),0,true);
-      return false;
-    })
-    $('a.scrollTo').click(function() {
-      scrollTo($(this).attr('href'),0);
-      return false;
-    })
-
+    /*
     //plate clicking
     $('.plate').click(function() {
       var w = $(this).parent().parent();
@@ -201,7 +204,6 @@ $(document).ready(function() {
         $('.folder').removeClass('active');
       }
     });
-    /*
     var trianglez = setInterval(function() {
         triangles(header);
     },Math.random()/2*1000 + 700);
