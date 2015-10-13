@@ -187,7 +187,7 @@ $(document).ready(function() {
         $(header).css('background-position-y',0);
     }
     $('.contact').click(function() {
-
+        
     });
 
     /*

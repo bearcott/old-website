@@ -1,4 +1,3 @@
-@import url('lesshat.less');
 @font-face {
         font-family: "Lato";
         font-weight: normal;
@@ -99,14 +98,9 @@ header {
         left: 0;
         top: 50%;
         margin: -4em 0 0 0;
-        /* adding header background
-        background: url('icons/header.png') no-repeat;
-        background-size: auto 100%;
-        background-position: center;
-        */
         h1 {
             width: 500px;
-            font-size: 1.8em;
+            font-size: 2em;
             font-family: "Lato";
             font-weight: 100;
             line-height: 1.5;
@@ -120,6 +114,7 @@ header {
         }
         .tint {
         	color: #FCF5AF;
+          font-weight: bold;
         }
         .fillin {
 			width: 5em;
@@ -131,45 +126,6 @@ header {
 			}
         }
 
-    }
-    .line {
-        position: absolute;
-        height: 200px;
-        border-left: 4px dashed #FFF;
-        margin-left: -2px;
-        bottom: -160px;
-    }
-    .line, .down {
-        left: 50%;
-        transition: border-color 200ms ease-in-out, color 200ms ease-in-out, bottom 200ms ease-in-out;
-    }
-    .moveable {
-    	transition: all 200ms ease-in-out;
-    }
-    .down {
-        position: absolute;
-        bottom: 40px;
-        width: 60px;
-        height: 60px;
-        margin-left: -33px;
-        line-height: 65px;
-        border: none;
-        background: none;
-        color: #FFF;
-        border-radius: 100%;
-        border: 3px solid #FFF;
-        &:hover {
-            border-color: rgba(255,255,255,0.7);
-            color: rgba(255,255,255,0.7);
-    		    bottom: 50px !important;
-        }
-    }
-    .down:hover, .down:hover + .line {
-        border-color: rgba(255,255,255,0.7);
-        color: rgba(255,255,255,0.7);
-    }
-    .down:hover + .line {
-        bottom: -150px !important;
     }
     .btn {
       line-height: 30px;
@@ -223,7 +179,8 @@ header {
             height: 250px;
             position: absolute;
             top: -235px;
-            left: 15%;
+            left: 50%;
+            margin-left: -150px;
             background: url('/img/icons/coffee.svg');
             background-size: contain;
             background-repeat: no-repeat;
