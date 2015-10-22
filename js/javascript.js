@@ -171,6 +171,7 @@ $(document).ready(function() {
             header.find('.title').finish().fadeOut(300);
             header.find('.contact_card').addClass('active');
             history.replaceState({}, document.title, "#contact");
+            $('header').addClass('card');
 
 
             table.finish().css({randomProperty: 0}).animate({randomProperty: 1},{
@@ -199,10 +200,10 @@ $(document).ready(function() {
         };
         this.out = function() {
             this.state = false;
-            table.find('.coffee').show();
             header.find('.title').finish().fadeIn(300);
             header.find('.contact_card').removeClass('active',0);
             history.replaceState({}, document.title, ".");
+            $('header').removeClass('card');
 
             table.css({randomProperty: 0}).finish().animate({randomProperty: 1},{
                 step : function(now,fx) {
@@ -223,6 +224,7 @@ $(document).ready(function() {
                     table.find('.plate').css({
                         transform : "translate3d(0px," +  -$w.h*1.3/.7*((.7-now < 0) ? 0 : .7-now) + "px,0px) rotateZ(" + 20*(1-now) + "deg)"
                     });
+                    table.find('.coffee').show();
                 },
                 duration : 700,
                 complete : function() {
@@ -236,10 +238,8 @@ $(document).ready(function() {
         };
         this.toggle = function() {
             if (this.state) {
-                $('header').removeClass('card');
                 this.out();
             }else{
-                $('header').addClass('card');
                 this.in();
             }
         }
@@ -248,6 +248,9 @@ $(document).ready(function() {
     $('.contact').click(function() {
         conan.toggle();
     });
+
+    if (location.href.split("#")[1] !== 'undefined')
+        conan.in();
 
     //check if browser is already contact
 
