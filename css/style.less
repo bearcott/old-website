@@ -33,6 +33,7 @@ h1, h2, h3 {
     color: #DD5959;
     text-align: center;
     letter-spacing: .05em;
+    font-size: 2.5em;
 }
 button, a {
         transition: all 200ms ease-in-out;
@@ -50,9 +51,11 @@ button {
 .left {
 	float: left;
 }
-
 p {
-	line-height: 1.5;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    margin: 20px;
 }
 a {
 	color: #C73131;
@@ -299,9 +302,6 @@ header.card {
 @media only screen
 and (max-width : 1024px) {
     body {
-        font-size: 12pt;
-    }
-    #projects .folder {
         font-size: 12pt;
     }
 }

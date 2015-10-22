@@ -4,7 +4,6 @@ function isDefined(thing) {
     else
         false;
 }
-
 //custom jQuery extension to animate using newer/less laggy CSS3 technologies.
 $.fn.extend({
     slideIn : function(arguments,duration) {
@@ -170,7 +169,7 @@ $(document).ready(function() {
             table.find('.fume').fadeOut(300);
             header.find('.title').finish().fadeOut(300);
             header.find('.contact_card').addClass('active');
-            history.replaceState({}, document.title, "#contact");
+            history.pushState({}, document.title, "#contact");
             $('header').addClass('card');
 
 
@@ -249,7 +248,7 @@ $(document).ready(function() {
         conan.toggle();
     });
 
-    if (location.href.split("#")[1] !== 'undefined')
+    if (location.href.split("#")[1] !== undefined)
         conan.in();
 
     //check if browser is already contact
