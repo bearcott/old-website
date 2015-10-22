@@ -92,12 +92,10 @@ $(document).ready(function() {
     $w.h = $w.height();
     var header = $('header');
     var table = $('.table');
-    var about = $('#about');
+    var wrapper = $('wrapper');
     header.h = header.outerHeight();
     header.t = header.offset().top;
     header.w = header.outerWidth();
-    about.h = about.outerHeight();
-    about.t = header.offset().top;
 
     header.img = new Image();
     header.css('opacity',0);
@@ -135,7 +133,7 @@ $(document).ready(function() {
 
     function resize() {
         var he = (header.h < $w.h) ? header.h : $w.h;
-        header.height(he - 30);
+        header.height(he);
         header.tt = he/2;
     };
     resize();
@@ -144,31 +142,6 @@ $(document).ready(function() {
         resize();
     });
 
-    /*
-    //when scrolling
-    $w.scroll(function() {
-        $w.t = $w.scrollTop();
-        $w.h = $w.height();
-        header.t = header.offset().top;
-        about.t = header.offset().top;
-        //parallax
-        if ($w.t <= header.h)  {
-            var background = 'translate3d(0,' + (($w.t)/2) + 'px,0)',
-                title = 'translate3d(0,' + (($w.t)/4) + 'px,0)';
-            header.find('.background').css({
-                'transform' : background,
-                '-webkit-transform' : background,
-                '-moz-transform' : background
-            });
-            header.find('.title').css({
-                'transform' : title,
-                '-webkit-transform' : title,
-                '-moz-transform' : title
-            }).css('opacity',(1-$w.t/header.h*2));
-        }
-    });
-    */
-
     //BEGIN STYLE ANIMATIONS
     //on header img ready
     header.img.onload = function() {
@@ -176,7 +149,7 @@ $(document).ready(function() {
         // header.find('.line, .down').slideIn({from:[0,200,0],fade:true});
         header.find('.title').find('h1').slideIn({from:[0,-50,0],delay:1000,fade:true});
         header.find('.contact').slideIn({from:[0,-50,0],delay:1400,fade:true});
-        table.find('.coffee').slideIn({from:'left',delay:1200},2500);
+        table.find('.coffee').slideIn({from:'left'},2500);
 
         fword = header.find('.title .word').html();
         words = ['I make stuff.','I love jogging.',"I'm a cooking fanatic.","I'm a hackathon hacker.",fword];
@@ -186,8 +159,84 @@ $(document).ready(function() {
 
         $(header).css('background-position-y',0);
     }
+
+    function ContactAnimations() {
+        var state = true;
+        this.in = function() {
+            this.state = true;
+            table.find('.whole').delay(200).hide(0);
+            table.find('.cup').delay(200).show(0);
+            table.find('.plate').delay(200).show(0);
+            table.find('.fume').fadeOut(300);
+            header.find('.title').finish().fadeOut(300);
+            header.find('.contact_card').addClass('active');
+            table.finish().css({randomProperty: 0}).animate({randomProperty: 1},{
+                step : function(now,fx) {
+                    $(this).css({
+                        transform : "translate3d(0px," + ((now*now*100-60*now)) + "px,0px)"
+                    });
+                }
+            },'swing');
+            table.find('.coffee').finish().css({randomProperty: 0}).delay(200).animate({randomProperty: 1},{
+                step : function(now,fx) {
+                    table.find('.cup').css({
+                        //using parabolic functions from high school lol
+                        transform : "translate3d(" + 300*now + "px," + ((now*now*100-50*now))*8 + "px,0px) rotateZ(-" + 20*now + "deg)"
+                    });
+                    table.find('.plate').css({
+                        transform : "translate3d(" + -100*now + "px," +  ((now*now*100-30*now))*8 +  "px,0px) rotateZ(" + 30*now + "deg)"
+                    });table.find('.fume').hide();
+                },
+                duration : 800
+            },'linear');
+        };
+        this.out = function() {
+            this.state = false;
+            header.find('.title').finish().fadeIn(300);
+            header.find('.contact_card').removeClass('active',0);
+            table.css({randomProperty: 0}).finish().animate({randomProperty: 1},{
+                step : function(now,fx) {
+                    no = 1-now;
+                    $(this).css({
+                        transform : "translate3d(0px," + ((no*no*100-60*no)) + "px,0px)"
+                    });
+                }
+            },'swing');
+            table.css({randomProperty: 0}).find('.coffee').css('transform', 'rotateZ(0)').finish().animate({randomProperty: 1},{
+                step : function(now,fx) {
+                    $(this).css({
+                        transform : "rotateZ(" + (1-now) + "deg)"
+                    })
+                    table.find('.cup').css({
+                        transform : "translate3d(0px," +  -$w.h*1.5*(1-now) + "px,0px) rotateZ(" + -20*(1-now) + "deg)"
+                    });
+                    table.find('.plate').css({
+                        transform : "translate3d(0px," +  -$w.h*1.3/.7*((.7-now < 0) ? 0 : .7-now) + "px,0px) rotateZ(" + 20*(1-now) + "deg)"
+                    });
+                },
+                duration : 700,
+                complete : function() {
+                    table.find('.whole').show();
+                    table.find('.cup').hide();
+                    table.find('.plate').hide();
+                    table.find('.fume').fadeIn(300);
+                    //title
+                }
+            },'linear');
+        };
+        this.toggle = function() {
+            if (this.state) {
+                $('header').removeClass('card');
+                this.out();
+            }else{
+                $('header').addClass('card');
+                this.in();
+            }
+        }
+    }
+    var conan = new ContactAnimations();
     $('.contact').click(function() {
-        
+        conan.toggle();
     });
 
     /*

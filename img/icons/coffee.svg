@@ -2,213 +2,165 @@
 <!-- Generator: Adobe Illustrator 16.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
 <svg version="1.1"
-	 id="svg2" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:svg="http://www.w3.org/2000/svg" xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd" xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape" inkscape:version="0.48.5 r10040" sodipodi:docname="icons.svg"
+	 id="svg2" sodipodi:docname="icons.svg" inkscape:version="0.48.5 r10040" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:svg="http://www.w3.org/2000/svg" xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd" xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
 	 xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="266.164px"
-	 height="243.762px" viewBox="0 0 266.164 243.762" enable-background="new 0 0 266.164 243.762" xml:space="preserve">
+	 height="142.917px" viewBox="0 100.845 266.164 142.917" enable-background="new 0 100.845 266.164 142.917" xml:space="preserve">
 <defs>
 	
 	
-		<inkscape:path-effect  fuse_tolerance="0" prop_units="false" tang_offset="0" normal_offset="0" spacing="0" scale_y_rel="false" prop_scale="1" copytype="single_stretched" pattern="M 0,0 0,10 10,5 z" is_visible="true" id="path-effect4249" effect="skeletal" vertical_pattern="false">
+		<inkscape:path-effect  vertical_pattern="false" effect="skeletal" id="path-effect4249" is_visible="true" pattern="M 0,0 0,10 10,5 z" copytype="single_stretched" prop_scale="1" scale_y_rel="false" spacing="0" normal_offset="0" tang_offset="0" prop_units="false" fuse_tolerance="0">
 		</inkscape:path-effect>
 </defs>
-<sodipodi:namedview  fit-margin-left="0" fit-margin-top="0" showguides="true" showgrid="false" inkscape:cy="245.67636" inkscape:cx="124.74127" inkscape:zoom="0.70710678" borderopacity="1.0" bordercolor="#666666" pagecolor="#ffffff" id="base" fit-margin-bottom="0" fit-margin-right="0" inkscape:window-maximized="1" inkscape:window-y="0" inkscape:window-x="0" inkscape:window-height="770" inkscape:window-width="1440" inkscape:guide-bbox="true" inkscape:snap-page="false" inkscape:current-layer="layer1" inkscape:document-units="px" inkscape:pageshadow="2" inkscape:pageopacity="0.0">
+<sodipodi:namedview  inkscape:pageopacity="0.0" inkscape:pageshadow="2" inkscape:document-units="px" inkscape:current-layer="layer1" inkscape:snap-page="false" inkscape:guide-bbox="true" inkscape:window-width="1440" inkscape:window-height="770" inkscape:window-x="0" inkscape:window-y="0" inkscape:window-maximized="1" fit-margin-right="0" fit-margin-bottom="0" pagecolor="#ffffff" bordercolor="#666666" borderopacity="1.0" inkscape:zoom="0.70710678" inkscape:cx="124.74127" inkscape:cy="245.67636" showgrid="false" showguides="true" fit-margin-top="0" fit-margin-left="0" id="base">
 	</sodipodi:namedview>
-<g id="layer1" transform="translate(-156.88096,-392.59995)" inkscape:label="cup" inkscape:groupmode="layer">
+<path id="path3415" sodipodi:type="arc" sodipodi:cx="289.5" sodipodi:cy="628.86218" sodipodi:rx="132.5" sodipodi:ry="5.5" opacity="0.1148" enable-background="new    " d="
+	M259.119,238.262c0,3.038-56.637,5.5-126.5,5.5c-69.864,0-126.5-2.462-126.5-5.5c0-3.037,56.636-5.5,126.5-5.5
+	C202.482,232.762,259.119,235.225,259.119,238.262z"/>
+<linearGradient id="path2985_1_" gradientUnits="userSpaceOnUse" x1="464.3623" y1="797.0061" x2="463.9102" y2="753.9897" gradientTransform="matrix(1 0 -0.0105 0.9628 -323.3985 -539.3793)">
+	<stop  offset="0" style="stop-color:#F6F6F6"/>
+	<stop  offset="1" style="stop-color:#DCDCDC"/>
+</linearGradient>
+<path id="path2985" inkscape:export-filename="/Users/bearcott/Desktop/portfolio.rebuild/static/icons/coffee.png" inkscape:export-xdpi="90" inkscape:export-ydpi="90" sodipodi:type="arc" sodipodi:cx="289.40869" sodipodi:cy="611.4306" sodipodi:rx="131.82491" sodipodi:ry="12.014146" fill="url(#path2985_1_)" d="
+	M264.42,218.541c-0.068,6.389-59.146,11.566-131.951,11.566c-72.805,0-131.769-5.179-131.699-11.566
+	c0.07-6.389,59.146-11.568,131.951-11.568C205.525,206.973,264.49,212.153,264.42,218.541L264.42,218.541z"/>
+<linearGradient id="path4251_1_" gradientUnits="userSpaceOnUse" x1="562.9023" y1="667.0969" x2="563.4023" y2="770.5945" gradientTransform="matrix(1 0 0 1 -325.7617 -547.2373)">
+	<stop  offset="0" style="stop-color:#F6F6F6"/>
+	<stop  offset="1" style="stop-color:#DCDCDC"/>
+</linearGradient>
+<path id="path4251" inkscape:connector-curvature="0" sodipodi:nodetypes="csccscc" inkscape:export-filename="/Users/bearcott/Desktop/portfolio.rebuild/static/icons/coffee.png" inkscape:export-xdpi="90" inkscape:export-ydpi="90" fill="url(#path4251_1_)" d="
+	M208.959,128.748c0,0,40.094-23.185,55.484,5.284c12.994,24.035-51.853,71.666-51.853,71.666v-8.257
+	c0,0,50.695-40.034,35.998-58.785c-9.575-12.221-40.291-2.644-40.291-2.644L208.959,128.748z"/>
+<linearGradient id="path3823_1_" gradientUnits="userSpaceOnUse" x1="462.2861" y1="667.5872" x2="462.786" y2="771.0876" gradientTransform="matrix(1 0 0 1 -325.7617 -547.2373)">
+	<stop  offset="0" style="stop-color:#F6F6F6"/>
+	<stop  offset="1" style="stop-color:#DCDCDC"/>
+</linearGradient>
+<path id="path3823" inkscape:connector-curvature="0" sodipodi:nodetypes="csscc" inkscape:export-filename="/Users/bearcott/Desktop/portfolio.rebuild/static/icons/coffee.png" inkscape:export-xdpi="90" inkscape:export-ydpi="90" fill="url(#path3823_1_)" d="
+	M55.619,107.977c0,0-33.564,122.709,37.143,123.571c74.996,0.914,46.155,1.225,87.143,0.357
+	c69.778-1.479,39.286-123.572,39.286-123.572L55.619,107.977z"/>
+<path id="path3765" inkscape:connector-curvature="0" sodipodi:nodetypes="cscsc" inkscape:export-filename="/Users/bearcott/Desktop/portfolio.rebuild/static/icons/coffee.png" inkscape:export-xdpi="90" inkscape:export-ydpi="90" fill="#E0E0E0" d="
+	M0.083,219.583c0,0,1.607,22.679,132.321,22.679c130.753,0,132.542-23.304,132.542-23.304
+	c-3.791,7.172-62.085,10.924-130.022,11.482C76.165,230.925,2.556,224.842,0.083,219.583z"/>
+<path id="path3825" inkscape:connector-curvature="0" sodipodi:nodetypes="sssssss" inkscape:export-filename="/Users/bearcott/Desktop/portfolio.rebuild/static/icons/coffee.png" inkscape:export-xdpi="90" inkscape:export-ydpi="90" fill="#FFFFFF" d="
+	M0.04,219.588c-0.296-0.47,1.163-1.984,0.821-1.547c-4.038,5.162,64.649,11.924,135.077,12.28
+	c66.851,0.338,130.461-8.196,128.25-12.215c-0.174-0.313,0.67,0.438,0.631,0.795c-0.536,5.054-50.327,13.333-129.069,13.312
+	C57.005,232.197,4.081,226.001,0.04,219.588L0.04,219.588z"/>
+<path id="path3827" inkscape:export-filename="/Users/bearcott/Desktop/portfolio.rebuild/static/icons/coffee.png" inkscape:export-xdpi="90" inkscape:export-ydpi="90" sodipodi:type="arc" sodipodi:cx="293.70184" sodipodi:cy="487.81317" sodipodi:rx="80.812202" sodipodi:ry="7.2480993" fill="#CBCBCB" d="
+	M218.895,108.093c0,4.003-36.533,7.248-81.601,7.248c-45.068,0-81.602-3.245-81.602-7.248s36.534-7.248,81.602-7.248
+	C182.361,100.845,218.895,104.09,218.895,108.093z"/>
+<path id="path3831" inkscape:connector-curvature="0" sodipodi:nodetypes="czczc" inkscape:export-filename="/Users/bearcott/Desktop/portfolio.rebuild/static/icons/coffee.png" inkscape:export-xdpi="90" inkscape:export-ydpi="90" fill="#553303" d="
+	M74.637,112.619c0,0,43.263-1.958,63.482-1.866c20.219,0.092,57.768,2.224,57.768,2.224s-12.988,2.16-57.768,2.231
+	C93.34,115.281,74.637,112.619,74.637,112.619z"/>
+<path id="path3889" inkscape:connector-curvature="0" sodipodi:nodetypes="csscssc" inkscape:export-filename="/Users/bearcott/Desktop/portfolio.rebuild/static/icons/coffee.png" inkscape:export-xdpi="90" inkscape:export-ydpi="90" fill="#FFD1AB" fill-opacity="0.3382" d="
+	M102.359-37.277c0,0-18.669,5.633-23.265-6.151c-3.205-8.22,9.024-40.832,4.999-49.223c-2.012-4.191-12.498-4.614-12.498-4.614
+	s19.804-7.499,24.034,0.386c5.734,10.686-6.729,41.338-2.5,52.874C94.931-39.094,102.359-37.277,102.359-37.277L102.359-37.277z"/>
+<path id="path3889-2" inkscape:connector-curvature="0" sodipodi:nodetypes="csscssc" inkscape:export-filename="/Users/bearcott/Desktop/portfolio.rebuild/static/icons/coffee.png" inkscape:export-xdpi="90" inkscape:export-ydpi="90" fill="#FFD1AB" fill-opacity="0.3382" d="
+	M148.432-33.356c0,0-24.521,7.397-30.558-8.082c-4.209-10.795,11.853-53.63,6.566-64.648c-2.642-5.507-16.415-6.062-16.415-6.062
+	s26.011-9.85,31.567,0.505c7.531,14.035-8.839,54.296-3.281,69.448C138.674-35.746,148.432-33.356,148.432-33.356z"/>
+<path id="path3889-4" inkscape:connector-curvature="0" sodipodi:nodetypes="csscssc" inkscape:export-filename="/Users/bearcott/Desktop/portfolio.rebuild/static/icons/coffee.png" inkscape:export-xdpi="90" inkscape:export-ydpi="90" fill="#FFD1AB" fill-opacity="0.3382" d="
+	M189.573-36.511c0,0-19.429,5.86-24.209-6.403c-3.337-8.553,9.391-42.49,5.2-51.221c-2.092-4.363-13.004-4.804-13.004-4.804
+	s20.607-7.803,25.01,0.4c5.968,11.12-7.004,43.018-2.602,55.022C181.844-38.406,189.573-36.511,189.573-36.511z"/>
+<rect id="rect4299" x="-88.344" y="350.191" inkscape:export-filename="/Users/bearcott/Desktop/portfolio.rebuild/static/icons/wood.jpg.png" inkscape:export-xdpi="90" inkscape:export-ydpi="90" fill="#EAC68E" width="437.856" height="132.857">
+</rect>
+<image overflow="visible" enable-background="new    " width="380" height="400" id="image4309" xlink:href="E3B9562D939AB936.png"  transform="matrix(0.1217 -0.6981 0.6966 0.1214 386.7461 526.8381)">
+</image>
+<path id="rect4320" inkscape:connector-curvature="0" sodipodi:nodetypes="czcczscc" inkscape:export-filename="/Users/bearcott/Desktop/portfolio.rebuild/static/icons/wood.jpg.png" inkscape:export-xdpi="90" inkscape:export-ydpi="90" fill="#E6BC78" d="
+	M-88.304,378.031c0,0,366.093-1.885,399.049-0.719c32.956,1.165,38.766,0.753,38.766,0.753v-10.957c0,0-20.107,0.333-74.739,0.938
+	c-54.633,0.604-205.59,2.825-291.488,2.07c-28.843-0.255-71.624-3.019-71.624-3.019L-88.304,378.031z"/>
+<path id="rect4320-2" inkscape:connector-curvature="0" sodipodi:nodetypes="ccccccc" inkscape:export-filename="/Users/bearcott/Desktop/portfolio.rebuild/static/icons/wood.jpg.png" inkscape:export-xdpi="90" inkscape:export-ydpi="90" fill="#E5B875" d="
+	M-88.356,477.736l245.351,1.25l192.47-1.25l0.063-12.375l-192.533-3.25l-245.354,3.25L-88.356,477.736z"/>
+<path id="rect4320-2-3" inkscape:connector-curvature="0" sodipodi:nodetypes="cccccc" inkscape:export-filename="/Users/bearcott/Desktop/portfolio.rebuild/static/icons/wood.jpg.png" inkscape:export-xdpi="90" inkscape:export-ydpi="90" fill="#E0B06C" d="
+	M-88.356,458.737c144.871-0.356,289.116-0.922,437.821,0l0.063-7.071l-184.033,1.25l-253.854-1.25L-88.356,458.737z"/>
+<path id="rect4320-2-3-8" inkscape:connector-curvature="0" sodipodi:nodetypes="czccscc" inkscape:export-filename="/Users/bearcott/Desktop/portfolio.rebuild/static/icons/wood.jpg.png" inkscape:export-xdpi="90" inkscape:export-ydpi="90" fill="#E7C082" d="
+	M-88.356,441.4c0,0,222.668-2.404,295.641-2.122c72.975,0.283,142.18,2.122,142.18,2.122l0.063-22.628
+	c0,0-249.944,5.805-374.881,3.182c-21.024-0.44-63.006-3.182-63.006-3.182L-88.356,441.4z"/>
+<path id="rect4320-2-3-8-7" inkscape:connector-curvature="0" sodipodi:nodetypes="czccczcc" inkscape:export-filename="/Users/bearcott/Desktop/portfolio.rebuild/static/icons/wood.jpg.png" inkscape:export-xdpi="90" inkscape:export-ydpi="90" fill="#E0B06C" d="
+	M-88.206,405.197c0,0-7.726,0.26,54.872-0.707s320.67,2.781,320.67,2.781l62.279-2.074l0.062-7.071c0,0-335.842-3.489-383.365-1.768
+	c-47.524,1.722-54.521,1.768-54.521,1.768L-88.206,405.197z"/>
+<path id="rect4398" inkscape:connector-curvature="0" sodipodi:nodetypes="czsccszcc" inkscape:export-filename="/Users/bearcott/Desktop/portfolio.rebuild/static/icons/wood.jpg.png" inkscape:export-xdpi="90" inkscape:export-ydpi="90" fill="#E0B06C" d="
+	M-88.312,381.439c0,0,8.617-0.327,53.691,0.409c45.075,0.736,176.75-0.135,274.367-0.958c60.398-0.51,109.735,0.549,109.735,0.549v2
+	c0,0-67.726-0.38-109.485-0.006c-96.535,0.865-222.876,1.604-273.806,0.77c-50.931-0.837-54.502-0.764-54.502-0.764V381.439
+	L-88.312,381.439z"/>
+<path id="rect4398-7-4" inkscape:connector-curvature="0" sodipodi:nodetypes="ccccccc" inkscape:export-filename="/Users/bearcott/Desktop/portfolio.rebuild/static/icons/wood.jpg.png" inkscape:export-xdpi="90" inkscape:export-ydpi="90" fill="#CD8849" d="
+	M-88.312,469.951l111.307,0.023l326.486-0.023v2l-327.297-0.829l-110.497,0.829L-88.312,469.951L-88.312,469.951z"/>
+<path id="rect4398-7-4-7" inkscape:connector-curvature="0" sodipodi:nodetypes="csscccccc" inkscape:export-filename="/Users/bearcott/Desktop/portfolio.rebuild/static/icons/wood.jpg.png" inkscape:export-xdpi="90" inkscape:export-ydpi="90" fill="#CD8849" d="
+	M-88.312,387.987c0,0,45.371,0.648,68.057,0.75c91.402,0.411,251.094,0.551,327.251,0.207c26.531-0.119,42.485-0.957,42.485-0.957v2
+	l-42.735,0.138l-326.501,1.112l-68.557-1.25V387.987z"/>
+<path id="rect4320-2-3-85" inkscape:connector-curvature="0" sodipodi:nodetypes="cccccc" inkscape:export-filename="/Users/bearcott/Desktop/portfolio.rebuild/static/icons/wood.jpg.png" inkscape:export-xdpi="90" inkscape:export-ydpi="90" fill="#E0B06C" d="
+	M-88.356,360.819c144.871-0.355,289.116-0.921,437.821,0l0.063-7.069l-184.033,1.25l-253.854-1.25L-88.356,360.819z"/>
+<path id="path4389" inkscape:connector-curvature="0" sodipodi:nodetypes="cccccc" inkscape:export-filename="/Users/bearcott/Desktop/portfolio.rebuild/static/icons/storeBack.png" inkscape:export-xdpi="199.7692" inkscape:export-ydpi="199.7692" fill="#A37500" fill-opacity="0.1822" d="
+	M429.522-147.515l30.847-1.973l-35.846-18.021l-191.049,0.437l-25.105,19.084L429.522-147.515z"/>
+<path id="path3169-3" inkscape:connector-curvature="0" sodipodi:nodetypes="cccccc" inkscape:export-filename="/Users/bearcott/Desktop/portfolio.rebuild/static/icons/storeBack.png" inkscape:export-xdpi="199.7692" inkscape:export-ydpi="199.7692" fill="#FFDAA4" d="
+	M202.941-335.756l118.088-0.793l100.084,19.171l-1.692,169.827l-212.235-0.232L202.941-335.756z"/>
+<rect id="rect4238-8-6" x="214.609" y="-197.805" inkscape:export-filename="/Users/bearcott/Desktop/portfolio.rebuild/static/icons/storeBack.png" inkscape:export-xdpi="199.7692" inkscape:export-ydpi="199.7692" fill="#C19D3D" fill-opacity="0.2489" width="192.458" height="5.657">
+</rect>
+<rect id="rect4236-6" x="215.67" y="-301.88" inkscape:export-filename="/Users/bearcott/Desktop/portfolio.rebuild/static/icons/storeBack.png" inkscape:export-xdpi="199.7692" inkscape:export-ydpi="199.7692" fill="#B19F6A" width="192.458" height="101.6">
+</rect>
+<path id="path3173-2-6-6-2-3" inkscape:connector-curvature="0" sodipodi:nodetypes="cscccccc" inkscape:export-filename="/Users/bearcott/Desktop/portfolio.rebuild/static/icons/storeShade.png" inkscape:export-xdpi="199.7692" inkscape:export-ydpi="199.7692" fill="#856B20" fill-opacity="0.3022" d="
+	M210.07-264.879c0.557,0.176-2.006,9.455,15.904,9.469c17.918,0.014,17.891-9.874,17.891-9.874l0.127-15.131l6.082-16.928
+	l-33.994-0.062l-6.01,17.324V-264.879z"/>
+<path id="path3173-2-6-6-4-2-5" inkscape:connector-curvature="0" sodipodi:nodetypes="cscccccc" inkscape:export-filename="/Users/bearcott/Desktop/portfolio.rebuild/static/icons/storeShade.png" inkscape:export-xdpi="199.7692" inkscape:export-ydpi="199.7692" fill="#856B20" fill-opacity="0.3022" d="
+	M243.823-264.851c0.556,0.176-2.007,9.455,15.905,9.47c17.918,0.014,17.889-9.875,17.889-9.875l0.128-15.131l6.081-16.929
+	l-33.992-0.062l-6.011,17.324V-264.851z"/>
+<path id="path3173-2-6-6-5-4-6" inkscape:connector-curvature="0" sodipodi:nodetypes="cscccccc" inkscape:export-filename="/Users/bearcott/Desktop/portfolio.rebuild/static/icons/storeShade.png" inkscape:export-xdpi="199.7692" inkscape:export-ydpi="199.7692" fill="#856B20" fill-opacity="0.3022" d="
+	M277.855-264.787c0.557,0.175-2.006,9.455,15.903,9.468c17.919,0.015,17.891-9.874,17.891-9.874l0.128-15.131l6.081-16.928
+	l-33.993-0.062l-6.01,17.324V-264.787L277.855-264.787z"/>
+<path id="path3173-2-6-6-4-1-9-1" inkscape:connector-curvature="0" sodipodi:nodetypes="cscccccc" inkscape:export-filename="/Users/bearcott/Desktop/portfolio.rebuild/static/icons/storeShade.png" inkscape:export-xdpi="199.7692" inkscape:export-ydpi="199.7692" fill="#856B20" fill-opacity="0.3022" d="
+	M311.608-264.76c0.557,0.176-2.007,9.454,15.904,9.469c17.918,0.014,17.891-9.875,17.891-9.875l0.127-15.13l6.081-16.929
+	l-33.992-0.062l-6.011,17.324V-264.76z"/>
+<path id="path3173-2-6-6-7-7-9" inkscape:connector-curvature="0" sodipodi:nodetypes="cscccccc" inkscape:export-filename="/Users/bearcott/Desktop/portfolio.rebuild/static/icons/storeShade.png" inkscape:export-xdpi="199.7692" inkscape:export-ydpi="199.7692" fill="#856B20" fill-opacity="0.3022" d="
+	M345.602-264.686c0.557,0.177-2.007,9.455,15.904,9.47c17.919,0.014,17.891-9.875,17.891-9.875l0.127-15.132l6.082-16.928
+	l-33.993-0.062l-6.011,17.323V-264.686z"/>
+<path id="path3173-2-6-6-4-8-7-5" inkscape:connector-curvature="0" sodipodi:nodetypes="cscccccc" inkscape:export-filename="/Users/bearcott/Desktop/portfolio.rebuild/static/icons/storeShade.png" inkscape:export-xdpi="199.7692" inkscape:export-ydpi="199.7692" fill="#856B20" fill-opacity="0.3022" d="
+	M379.178-264.571c0.557,0.176-2.006,9.455,15.904,9.469c17.919,0.015,17.89-9.875,17.89-9.875l0.127-15.131l-1.343-16.839
+	l-26.567-0.151l-6.011,17.324V-264.571z"/>
+<path id="path3171-9" inkscape:connector-curvature="0" sodipodi:nodetypes="ccccc" inkscape:export-filename="/Users/bearcott/Desktop/portfolio.rebuild/static/icons/storeBack.png" inkscape:export-xdpi="199.7692" inkscape:export-ydpi="199.7692" fill="#F0C068" d="
+	M195.311-317.392c6.625,3.665,181.177,5.842,232.85,5.715c3.741-22.812-1.964-31.186-1.964-31.186s-116.577-17.552-223.065-19.562
+	C190.507-344.673,192.607-328.482,195.311-317.392L195.311-317.392z"/>
+<path id="path3173-2-6-6-0" inkscape:connector-curvature="0" sodipodi:nodetypes="cscccccc" inkscape:export-filename="/Users/bearcott/Desktop/portfolio.rebuild/static/icons/storeShade.png" inkscape:export-xdpi="199.7692" inkscape:export-ydpi="199.7692" fill="#C9302C" d="
+	M203.979-272.882c0.556,0.175-2.006,9.455,15.903,9.468c17.918,0.014,17.89-9.874,17.89-9.874l0.127-15.131l6.082-16.929
+	l-33.992-0.062l-6.01,17.324V-272.882z"/>
+<path id="path3173-2-6-6-4-9" inkscape:connector-curvature="0" sodipodi:nodetypes="cscccccc" inkscape:export-filename="/Users/bearcott/Desktop/portfolio.rebuild/static/icons/storeShade.png" inkscape:export-xdpi="199.7692" inkscape:export-ydpi="199.7692" fill="#FFFDEF" d="
+	M237.73-272.855c0.557,0.177-2.006,9.455,15.906,9.47c17.918,0.014,17.889-9.875,17.889-9.875l0.127-15.131l6.082-16.928
+	l-33.992-0.062l-6.012,17.323V-272.855L237.73-272.855z"/>
+<path id="path3173-2-6-6-5-46" inkscape:connector-curvature="0" sodipodi:nodetypes="cscccccc" inkscape:export-filename="/Users/bearcott/Desktop/portfolio.rebuild/static/icons/storeShade.png" inkscape:export-xdpi="199.7692" inkscape:export-ydpi="199.7692" fill="#C9302C" d="
+	M271.764-272.791c0.557,0.176-2.006,9.455,15.904,9.469c17.918,0.014,17.891-9.875,17.891-9.875l0.127-15.131l6.081-16.928
+	l-33.993-0.062l-6.01,17.324V-272.791L271.764-272.791z"/>
+<path id="path3173-2-6-6-4-1-7" inkscape:connector-curvature="0" sodipodi:nodetypes="cscccccc" inkscape:export-filename="/Users/bearcott/Desktop/portfolio.rebuild/static/icons/storeShade.png" inkscape:export-xdpi="199.7692" inkscape:export-ydpi="199.7692" fill="#FFFDEF" d="
+	M305.516-272.764c0.558,0.177-2.006,9.455,15.905,9.47c17.919,0.014,17.89-9.874,17.89-9.874l0.128-15.131l6.082-16.929
+	l-33.993-0.062l-6.012,17.324V-272.764z"/>
+<path id="path3173-2-6-6-7-8" inkscape:connector-curvature="0" sodipodi:nodetypes="cscccccc" inkscape:export-filename="/Users/bearcott/Desktop/portfolio.rebuild/static/icons/storeShade.png" inkscape:export-xdpi="199.7692" inkscape:export-ydpi="199.7692" fill="#C9302C" d="
+	M339.509-272.69c0.558,0.176-2.006,9.455,15.905,9.47c17.918,0.014,17.89-9.875,17.89-9.875l0.127-15.131l6.081-16.928
+	l-33.991-0.062l-6.012,17.323V-272.69L339.509-272.69z"/>
+<path id="path4195-4" inkscape:connector-curvature="0" sodipodi:nodetypes="cccccc" inkscape:export-filename="/Users/bearcott/Desktop/portfolio.rebuild/static/icons/storeShade.png" inkscape:export-xdpi="199.7692" inkscape:export-ydpi="199.7692" fill="#FBF09F" d="
+	M406.37-272.008l6.718-6.1l0.086-15.304l0.068-12.008l-9.877,17.678L406.37-272.008z"/>
+<path id="path3173-2-6-6-4-8-6" inkscape:connector-curvature="0" sodipodi:nodetypes="cscccccc" inkscape:export-filename="/Users/bearcott/Desktop/portfolio.rebuild/static/icons/storeShade.png" inkscape:export-xdpi="199.7692" inkscape:export-ydpi="199.7692" fill="#FFFDEF" d="
+	M373.262-272.663c0.558,0.175-2.006,9.455,15.905,9.469c17.918,0.013,17.89-9.875,17.89-9.875l0.127-15.131l6.082-16.928
+	l-33.992-0.062l-6.012,17.324V-272.663L373.262-272.663z"/>
+<rect id="rect4238-3" x="210.721" y="-202.755" inkscape:export-filename="/Users/bearcott/Desktop/portfolio.rebuild/static/icons/storeBack.png" inkscape:export-xdpi="199.7692" inkscape:export-ydpi="199.7692" fill="#F1EEE6" width="201.176" height="7.776">
+</rect>
+<g id="g3188" transform="matrix(0.82134725,0.05037046,-0.06571636,0.62954852,98.286669,-0.20222993)" inkscape:export-filename="/Users/bearcott/Desktop/portfolio.rebuild/static/icons/man.png" inkscape:export-xdpi="199.7692" inkscape:export-ydpi="199.7692">
+	<path id="path3184" inkscape:connector-curvature="0" sodipodi:nodetypes="cscc" fill="#F6F6F6" d="M255.21-102.29
+		c0,0-9.265-57.772,31.514-62.013c48.886-5.084,46.143,55.726,46.143,55.726L255.21-102.29z"/>
 	
-		<path id="path3415" sodipodi:ry="5.5" sodipodi:rx="132.5" sodipodi:cy="628.86218" sodipodi:cx="289.5" sodipodi:type="arc" opacity="0.1148" enable-background="new    " d="
-		M416,630.862c0,3.038-56.637,5.5-126.5,5.5c-69.864,0-126.5-2.462-126.5-5.5c0-3.037,56.636-5.5,126.5-5.5
-		C359.363,625.362,416,627.825,416,630.862z"/>
+		<path id="path3959" sodipodi:type="arc" sodipodi:cx="522.19836" sodipodi:cy="399.1723" sodipodi:rx="22.627417" sodipodi:ry="24.925514" fill="#FFE6D4" d="
+		M304.102-189.921c1.268,15.862-6.045,29.389-16.34,30.214c-10.291,0.823-19.665-11.368-20.934-27.232
+		c-1.269-15.862,6.045-29.391,16.338-30.212C293.461-217.974,302.833-205.783,304.102-189.921z"/>
 	
-		<linearGradient id="path2985_1_" gradientUnits="userSpaceOnUse" x1="455.379" y1="-90.4349" x2="454.9269" y2="-47.4203" gradientTransform="matrix(1 0 0.0105 -0.9628 -164.9527 533.5087)">
-		<stop  offset="0" style="stop-color:#F6F6F6"/>
-		<stop  offset="1" style="stop-color:#DCDCDC"/>
-	</linearGradient>
+		<path id="path3964" sodipodi:type="arc" sodipodi:cx="508.40979" sodipodi:cy="383.61594" sodipodi:rx="3.5355339" sodipodi:ry="4.7729707" fill="#383838" d="
+		M279.067-194.833c0.126,1.557-0.383,2.868-1.133,2.928c-0.751,0.06-1.462-1.153-1.586-2.71c-0.125-1.558,0.384-2.868,1.135-2.928
+		C278.233-197.603,278.942-196.391,279.067-194.833z"/>
 	
-		<path id="path2985" sodipodi:ry="12.014146" sodipodi:rx="131.82491" sodipodi:cy="611.4306" sodipodi:cx="289.40869" sodipodi:type="arc" inkscape:export-ydpi="90" inkscape:export-xdpi="90" inkscape:export-filename="/Users/bearcott/Desktop/portfolio.rebuild/static/icons/coffee.png" fill="url(#path2985_1_)" d="
-		M421.301,611.141c-0.069,6.389-59.146,11.567-131.951,11.567c-72.805,0-131.769-5.179-131.699-11.567s59.146-11.568,131.951-11.568
-		C362.407,599.573,421.371,604.753,421.301,611.141L421.301,611.141z"/>
-	
-		<linearGradient id="path4251_1_" gradientUnits="userSpaceOnUse" x1="556.9034" y1="28.902" x2="557.4034" y2="-74.5968" gradientTransform="matrix(1 0 0 -1 -162.8809 541.3625)">
-		<stop  offset="0" style="stop-color:#F6F6F6"/>
-		<stop  offset="1" style="stop-color:#DCDCDC"/>
-	</linearGradient>
-	
-		<path id="path4251" sodipodi:nodetypes="csccscc" inkscape:connector-curvature="0" inkscape:export-ydpi="90" inkscape:export-xdpi="90" inkscape:export-filename="/Users/bearcott/Desktop/portfolio.rebuild/static/icons/coffee.png" fill="url(#path4251_1_)" d="
-		M365.84,521.348c0,0,40.094-23.184,55.484,5.284c12.994,24.036-51.852,71.666-51.852,71.666v-8.256
-		c0,0,50.695-40.035,35.998-58.786c-9.576-12.22-40.291-2.643-40.291-2.643L365.84,521.348z"/>
-	
-		<linearGradient id="path3823_1_" gradientUnits="userSpaceOnUse" x1="456.2863" y1="28.4122" x2="456.7862" y2="-75.0882" gradientTransform="matrix(1 0 0 -1 -162.8809 541.3625)">
-		<stop  offset="0" style="stop-color:#F6F6F6"/>
-		<stop  offset="1" style="stop-color:#DCDCDC"/>
-	</linearGradient>
-	
-		<path id="path3823" sodipodi:nodetypes="csscc" inkscape:connector-curvature="0" inkscape:export-ydpi="90" inkscape:export-xdpi="90" inkscape:export-filename="/Users/bearcott/Desktop/portfolio.rebuild/static/icons/coffee.png" fill="url(#path3823_1_)" d="
-		M212.5,500.577c0,0-33.564,122.709,37.143,123.571c74.996,0.914,46.155,1.225,87.143,0.357
-		c69.778-1.479,39.286-123.572,39.286-123.572L212.5,500.577z"/>
-	
-		<path id="path3765" sodipodi:nodetypes="cscsc" inkscape:connector-curvature="0" inkscape:export-ydpi="90" inkscape:export-xdpi="90" inkscape:export-filename="/Users/bearcott/Desktop/portfolio.rebuild/static/icons/coffee.png" fill="#E0E0E0" d="
-		M156.964,612.183c0,0,1.607,22.679,132.321,22.679c130.753,0,132.542-23.304,132.542-23.304
-		c-3.791,7.172-62.085,10.924-130.022,11.483C233.046,623.525,159.437,617.442,156.964,612.183z"/>
-	
-		<path id="path3825" sodipodi:nodetypes="sssssss" inkscape:connector-curvature="0" inkscape:export-ydpi="90" inkscape:export-xdpi="90" inkscape:export-filename="/Users/bearcott/Desktop/portfolio.rebuild/static/icons/coffee.png" fill="#FFFFFF" d="
-		M156.921,612.188c-0.296-0.47,1.163-1.984,0.821-1.547c-4.038,5.162,64.649,11.924,135.077,12.28
-		c66.85,0.338,130.46-8.196,128.25-12.214c-0.174-0.314,0.669,0.438,0.631,0.795c-0.537,5.053-50.328,13.333-129.07,13.312
-		C213.886,624.796,160.962,618.601,156.921,612.188L156.921,612.188z"/>
-	
-		<path id="path3827" sodipodi:ry="7.2480993" sodipodi:rx="80.812202" sodipodi:cy="487.81317" sodipodi:cx="293.70184" sodipodi:type="arc" inkscape:export-ydpi="90" inkscape:export-xdpi="90" inkscape:export-filename="/Users/bearcott/Desktop/portfolio.rebuild/static/icons/coffee.png" fill="#CBCBCB" d="
-		M375.776,500.693c0,4.003-36.534,7.248-81.601,7.248c-45.068,0-81.602-3.245-81.602-7.248s36.534-7.248,81.602-7.248
-		C339.242,493.445,375.776,496.69,375.776,500.693z"/>
-	
-		<path id="path3831" sodipodi:nodetypes="czczc" inkscape:connector-curvature="0" inkscape:export-ydpi="90" inkscape:export-xdpi="90" inkscape:export-filename="/Users/bearcott/Desktop/portfolio.rebuild/static/icons/coffee.png" fill="#553303" d="
-		M231.518,505.219c0,0,43.263-1.958,63.482-1.866s57.768,2.224,57.768,2.224s-12.988,2.16-57.768,2.231
-		C250.221,507.88,231.518,505.219,231.518,505.219z"/>
-	
-		<path id="path3889" sodipodi:nodetypes="csscssc" inkscape:connector-curvature="0" inkscape:export-ydpi="90" inkscape:export-xdpi="90" inkscape:export-filename="/Users/bearcott/Desktop/portfolio.rebuild/static/icons/coffee.png" fill="#FFD1AB" fill-opacity="0.3382" d="
-		M259.24,355.323c0,0-18.669,5.633-23.265-6.152c-3.205-8.219,9.024-40.832,4.999-49.222c-2.012-4.192-12.498-4.614-12.498-4.614
-		s19.804-7.499,24.034,0.385c5.734,10.686-6.729,41.338-2.5,52.874C251.812,353.505,259.24,355.323,259.24,355.323L259.24,355.323z"
-		/>
-	
-		<path id="path3889-2" sodipodi:nodetypes="csscssc" inkscape:connector-curvature="0" inkscape:export-ydpi="90" inkscape:export-xdpi="90" inkscape:export-filename="/Users/bearcott/Desktop/portfolio.rebuild/static/icons/coffee.png" fill="#FFD1AB" fill-opacity="0.3382" d="
-		M305.312,359.244c0,0-24.521,7.397-30.557-8.082c-4.209-10.795,11.853-53.63,6.566-64.649c-2.642-5.507-16.415-6.061-16.415-6.061
-		s26.011-9.85,31.567,0.505c7.531,14.035-8.839,54.296-3.282,69.448C295.555,356.854,305.312,359.244,305.312,359.244z"/>
-	
-		<path id="path3889-4" sodipodi:nodetypes="csscssc" inkscape:connector-curvature="0" inkscape:export-ydpi="90" inkscape:export-xdpi="90" inkscape:export-filename="/Users/bearcott/Desktop/portfolio.rebuild/static/icons/coffee.png" fill="#FFD1AB" fill-opacity="0.3382" d="
-		M346.454,356.088c0,0-19.428,5.861-24.209-6.403c-3.336-8.553,9.391-42.49,5.201-51.221c-2.093-4.363-13.005-4.803-13.005-4.803
-		s20.608-7.803,25.011,0.4c5.967,11.12-7.004,43.018-2.602,55.023C338.724,354.194,346.454,356.088,346.454,356.088z"/>
-	
-		<rect id="rect4299" x="68.537" y="742.791" inkscape:export-ydpi="90" inkscape:export-xdpi="90" inkscape:export-filename="/Users/bearcott/Desktop/portfolio.rebuild/static/icons/wood.jpg.png" fill="#EAC68E" width="437.857" height="132.857">
-	</rect>
-	
-		<image overflow="visible" enable-background="new    " width="380" height="400" id="image4309" xlink:href="E3B9562D939AB936.png"  transform="matrix(0.1217 -0.6981 0.6966 0.1214 543.6271 919.4391)">
-	</image>
-	
-		<path id="rect4320" sodipodi:nodetypes="czcczscc" inkscape:connector-curvature="0" inkscape:export-ydpi="90" inkscape:export-xdpi="90" inkscape:export-filename="/Users/bearcott/Desktop/portfolio.rebuild/static/icons/wood.jpg.png" fill="#E6BC78" d="
-		M68.577,770.63c0,0,366.093-1.884,399.049-0.718c32.956,1.165,38.766,0.753,38.766,0.753v-10.957c0,0-20.108,0.333-74.74,0.938
-		c-54.632,0.605-205.59,2.825-291.488,2.07c-28.843-0.254-71.624-3.018-71.624-3.018L68.577,770.63z"/>
-	
-		<path id="rect4320-2" sodipodi:nodetypes="ccccccc" inkscape:connector-curvature="0" inkscape:export-ydpi="90" inkscape:export-xdpi="90" inkscape:export-filename="/Users/bearcott/Desktop/portfolio.rebuild/static/icons/wood.jpg.png" fill="#E5B875" d="
-		M68.525,870.335l245.351,1.25l192.47-1.25l0.063-12.375l-192.533-3.25l-245.354,3.25L68.525,870.335z"/>
-	
-		<path id="rect4320-2-3" sodipodi:nodetypes="cccccc" inkscape:connector-curvature="0" inkscape:export-ydpi="90" inkscape:export-xdpi="90" inkscape:export-filename="/Users/bearcott/Desktop/portfolio.rebuild/static/icons/wood.jpg.png" fill="#E0B06C" d="
-		M68.525,851.336c144.871-0.356,289.116-0.922,437.821,0l0.063-7.071l-184.033,1.25l-253.854-1.25L68.525,851.336z"/>
-	
-		<path id="rect4320-2-3-8" sodipodi:nodetypes="czccscc" inkscape:connector-curvature="0" inkscape:export-ydpi="90" inkscape:export-xdpi="90" inkscape:export-filename="/Users/bearcott/Desktop/portfolio.rebuild/static/icons/wood.jpg.png" fill="#E7C082" d="
-		M68.525,833.999c0,0,222.668-2.404,295.641-2.122c72.975,0.283,142.18,2.122,142.18,2.122l0.063-22.628
-		c0,0-249.944,5.805-374.881,3.182c-21.024-0.44-63.006-3.182-63.006-3.182L68.525,833.999z"/>
-	
-		<path id="rect4320-2-3-8-7" sodipodi:nodetypes="czccczcc" inkscape:connector-curvature="0" inkscape:export-ydpi="90" inkscape:export-xdpi="90" inkscape:export-filename="/Users/bearcott/Desktop/portfolio.rebuild/static/icons/wood.jpg.png" fill="#E0B06C" d="
-		M68.675,797.796c0,0-7.726,0.26,54.872-0.707s320.67,2.781,320.67,2.781l62.279-2.074l0.062-7.071c0,0-335.842-3.489-383.365-1.768
-		c-47.524,1.722-54.521,1.768-54.521,1.768L68.675,797.796z"/>
-	
-		<path id="rect4398" sodipodi:nodetypes="czsccszcc" inkscape:connector-curvature="0" inkscape:export-ydpi="90" inkscape:export-xdpi="90" inkscape:export-filename="/Users/bearcott/Desktop/portfolio.rebuild/static/icons/wood.jpg.png" fill="#E0B06C" d="
-		M68.569,774.039c0,0,8.617-0.327,53.691,0.409c45.075,0.736,176.75-0.135,274.367-0.958c60.398-0.51,109.735,0.549,109.735,0.549v2
-		c0,0-67.725-0.38-109.485-0.006c-96.535,0.865-222.876,1.604-273.806,0.769c-50.931-0.837-54.502-0.763-54.502-0.763V774.039z"/>
-	
-		<path id="rect4398-7-4" sodipodi:nodetypes="ccccccc" inkscape:connector-curvature="0" inkscape:export-ydpi="90" inkscape:export-xdpi="90" inkscape:export-filename="/Users/bearcott/Desktop/portfolio.rebuild/static/icons/wood.jpg.png" fill="#CD8849" d="
-		M68.569,862.551l111.307,0.024l326.486-0.024v2l-327.297-0.829l-110.497,0.829V862.551z"/>
-	
-		<path id="rect4398-7-4-7" sodipodi:nodetypes="csscccccc" inkscape:connector-curvature="0" inkscape:export-ydpi="90" inkscape:export-xdpi="90" inkscape:export-filename="/Users/bearcott/Desktop/portfolio.rebuild/static/icons/wood.jpg.png" fill="#CD8849" d="
-		M68.569,780.587c0,0,45.371,0.648,68.057,0.75c91.402,0.411,251.094,0.55,327.251,0.207c26.531-0.12,42.485-0.957,42.485-0.957v2
-		l-42.735,0.137l-326.501,1.113l-68.557-1.25V780.587z"/>
-	
-		<path id="rect4320-2-3-85" sodipodi:nodetypes="cccccc" inkscape:connector-curvature="0" inkscape:export-ydpi="90" inkscape:export-xdpi="90" inkscape:export-filename="/Users/bearcott/Desktop/portfolio.rebuild/static/icons/wood.jpg.png" fill="#E0B06C" d="
-		M68.525,753.419c144.871-0.356,289.116-0.921,437.821,0l0.063-7.07l-184.033,1.25l-253.854-1.25L68.525,753.419z"/>
-	
-		<path id="path4389" sodipodi:nodetypes="cccccc" inkscape:connector-curvature="0" inkscape:export-ydpi="199.7692" inkscape:export-xdpi="199.7692" inkscape:export-filename="/Users/bearcott/Desktop/portfolio.rebuild/static/icons/storeBack.png" fill="#A37500" fill-opacity="0.1822" d="
-		M586.403,245.085l30.847-1.973l-35.846-18.021l-191.049,0.437l-25.105,19.084L586.403,245.085z"/>
-	
-		<path id="path3169-3" sodipodi:nodetypes="cccccc" inkscape:connector-curvature="0" inkscape:export-ydpi="199.7692" inkscape:export-xdpi="199.7692" inkscape:export-filename="/Users/bearcott/Desktop/portfolio.rebuild/static/icons/storeBack.png" fill="#FFDAA4" d="
-		M359.823,56.844l118.087-0.793l100.084,19.171l-1.692,169.827l-212.235-0.232L359.823,56.844z"/>
-	
-		<rect id="rect4238-8-6" x="371.49" y="194.795" inkscape:export-ydpi="199.7692" inkscape:export-xdpi="199.7692" inkscape:export-filename="/Users/bearcott/Desktop/portfolio.rebuild/static/icons/storeBack.png" fill="#C19D3D" fill-opacity="0.2489" width="192.458" height="5.657">
-	</rect>
-	
-		<rect id="rect4236-6" x="372.551" y="90.72" inkscape:export-ydpi="199.7692" inkscape:export-xdpi="199.7692" inkscape:export-filename="/Users/bearcott/Desktop/portfolio.rebuild/static/icons/storeBack.png" fill="#B19F6A" width="192.458" height="101.6">
-	</rect>
-	
-		<path id="path3173-2-6-6-2-3" sodipodi:nodetypes="cscccccc" inkscape:connector-curvature="0" inkscape:export-ydpi="199.7692" inkscape:export-xdpi="199.7692" inkscape:export-filename="/Users/bearcott/Desktop/portfolio.rebuild/static/icons/storeShade.png" fill="#856B20" fill-opacity="0.3022" d="
-		M366.951,127.721c0.557,0.176-2.006,9.455,15.905,9.469c17.918,0.014,17.89-9.874,17.89-9.874l0.127-15.131l6.082-16.928
-		l-33.994-0.062l-6.01,17.324V127.721z"/>
-	
-		<path id="path3173-2-6-6-4-2-5" sodipodi:nodetypes="cscccccc" inkscape:connector-curvature="0" inkscape:export-ydpi="199.7692" inkscape:export-xdpi="199.7692" inkscape:export-filename="/Users/bearcott/Desktop/portfolio.rebuild/static/icons/storeShade.png" fill="#856B20" fill-opacity="0.3022" d="
-		M400.704,127.749c0.556,0.175-2.006,9.455,15.905,9.469c17.918,0.014,17.889-9.875,17.889-9.875l0.128-15.131l6.081-16.928
-		l-33.992-0.062l-6.011,17.324V127.749z"/>
-	
-		<path id="path3173-2-6-6-5-4-6" sodipodi:nodetypes="cscccccc" inkscape:connector-curvature="0" inkscape:export-ydpi="199.7692" inkscape:export-xdpi="199.7692" inkscape:export-filename="/Users/bearcott/Desktop/portfolio.rebuild/static/icons/storeShade.png" fill="#856B20" fill-opacity="0.3022" d="
-		M434.736,127.813c0.557,0.175-2.006,9.455,15.904,9.468c17.919,0.014,17.89-9.874,17.89-9.874l0.128-15.131l6.081-16.928
-		l-33.993-0.062l-6.01,17.324V127.813z"/>
-	
-		<path id="path3173-2-6-6-4-1-9-1" sodipodi:nodetypes="cscccccc" inkscape:connector-curvature="0" inkscape:export-ydpi="199.7692" inkscape:export-xdpi="199.7692" inkscape:export-filename="/Users/bearcott/Desktop/portfolio.rebuild/static/icons/storeShade.png" fill="#856B20" fill-opacity="0.3022" d="
-		M468.489,127.839c0.557,0.176-2.006,9.455,15.905,9.469c17.918,0.014,17.89-9.875,17.89-9.875l0.127-15.13l6.081-16.928
-		L474.5,95.313l-6.011,17.324V127.839z"/>
-	
-		<path id="path3173-2-6-6-7-7-9" sodipodi:nodetypes="cscccccc" inkscape:connector-curvature="0" inkscape:export-ydpi="199.7692" inkscape:export-xdpi="199.7692" inkscape:export-filename="/Users/bearcott/Desktop/portfolio.rebuild/static/icons/storeShade.png" fill="#856B20" fill-opacity="0.3022" d="
-		M502.483,127.914c0.556,0.176-2.007,9.455,15.904,9.469c17.919,0.014,17.89-9.875,17.89-9.875l0.127-15.131l6.082-16.928
-		l-33.993-0.062l-6.01,17.324V127.914z"/>
-	
-		<path id="path3173-2-6-6-4-8-7-5" sodipodi:nodetypes="cscccccc" inkscape:connector-curvature="0" inkscape:export-ydpi="199.7692" inkscape:export-xdpi="199.7692" inkscape:export-filename="/Users/bearcott/Desktop/portfolio.rebuild/static/icons/storeShade.png" fill="#856B20" fill-opacity="0.3022" d="
-		M536.059,128.029c0.556,0.176-2.006,9.455,15.904,9.469c17.919,0.014,17.89-9.875,17.89-9.875l0.127-15.131l-1.343-16.839
-		l-26.568-0.151l-6.01,17.324V128.029z"/>
-	
-		<path id="path3171-9" sodipodi:nodetypes="ccccc" inkscape:connector-curvature="0" inkscape:export-ydpi="199.7692" inkscape:export-xdpi="199.7692" inkscape:export-filename="/Users/bearcott/Desktop/portfolio.rebuild/static/icons/storeBack.png" fill="#F0C068" d="
-		M352.192,75.208c6.625,3.665,181.176,5.841,232.849,5.714c3.741-22.812-1.964-31.185-1.964-31.185S466.5,32.185,360.012,30.174
-		C347.388,47.927,349.488,64.118,352.192,75.208L352.192,75.208z"/>
-	
-		<path id="path3173-2-6-6-0" sodipodi:nodetypes="cscccccc" inkscape:connector-curvature="0" inkscape:export-ydpi="199.7692" inkscape:export-xdpi="199.7692" inkscape:export-filename="/Users/bearcott/Desktop/portfolio.rebuild/static/icons/storeShade.png" fill="#C9302C" d="
-		M360.859,119.718c0.556,0.175-2.006,9.455,15.904,9.468c17.918,0.014,17.89-9.874,17.89-9.874l0.127-15.131l6.082-16.928
-		l-33.993-0.062l-6.01,17.324V119.718z"/>
-	
-		<path id="path3173-2-6-6-4-9" sodipodi:nodetypes="cscccccc" inkscape:connector-curvature="0" inkscape:export-ydpi="199.7692" inkscape:export-xdpi="199.7692" inkscape:export-filename="/Users/bearcott/Desktop/portfolio.rebuild/static/icons/storeShade.png" fill="#FFFDEF" d="
-		M394.611,119.745c0.557,0.176-2.006,9.455,15.906,9.469c17.918,0.014,17.889-9.875,17.889-9.875l0.127-15.13l6.082-16.928
-		l-33.992-0.062l-6.012,17.324V119.745z"/>
-	
-		<path id="path3173-2-6-6-5-46" sodipodi:nodetypes="cscccccc" inkscape:connector-curvature="0" inkscape:export-ydpi="199.7692" inkscape:export-xdpi="199.7692" inkscape:export-filename="/Users/bearcott/Desktop/portfolio.rebuild/static/icons/storeShade.png" fill="#C9302C" d="
-		M428.645,119.809c0.556,0.176-2.006,9.455,15.904,9.469c17.918,0.014,17.89-9.875,17.89-9.875l0.127-15.131l6.082-16.928
-		l-33.993-0.062l-6.01,17.324V119.809z"/>
-	
-		<path id="path3173-2-6-6-4-1-7" sodipodi:nodetypes="cscccccc" inkscape:connector-curvature="0" inkscape:export-ydpi="199.7692" inkscape:export-xdpi="199.7692" inkscape:export-filename="/Users/bearcott/Desktop/portfolio.rebuild/static/icons/storeShade.png" fill="#FFFDEF" d="
-		M462.397,119.836c0.557,0.176-2.006,9.455,15.905,9.469c17.919,0.014,17.89-9.874,17.89-9.874l0.127-15.131l6.082-16.928
-		l-33.993-0.062l-6.011,17.324V119.836z"/>
-	
-		<path id="path3173-2-6-6-7-8" sodipodi:nodetypes="cscccccc" inkscape:connector-curvature="0" inkscape:export-ydpi="199.7692" inkscape:export-xdpi="199.7692" inkscape:export-filename="/Users/bearcott/Desktop/portfolio.rebuild/static/icons/storeShade.png" fill="#C9302C" d="
-		M496.39,119.91c0.557,0.176-2.006,9.455,15.905,9.469c17.918,0.014,17.89-9.875,17.89-9.875l0.127-15.13l6.081-16.928
-		l-33.992-0.062l-6.011,17.324V119.91z"/>
-	
-		<path id="path4195-4" sodipodi:nodetypes="cccccc" inkscape:connector-curvature="0" inkscape:export-ydpi="199.7692" inkscape:export-xdpi="199.7692" inkscape:export-filename="/Users/bearcott/Desktop/portfolio.rebuild/static/icons/storeShade.png" fill="#FBF09F" d="
-		M563.251,120.592l6.718-6.099l0.086-15.304l0.068-12.008l-9.877,17.678L563.251,120.592z"/>
-	
-		<path id="path3173-2-6-6-4-8-6" sodipodi:nodetypes="cscccccc" inkscape:connector-curvature="0" inkscape:export-ydpi="199.7692" inkscape:export-xdpi="199.7692" inkscape:export-filename="/Users/bearcott/Desktop/portfolio.rebuild/static/icons/storeShade.png" fill="#FFFDEF" d="
-		M530.143,119.937c0.557,0.175-2.006,9.455,15.905,9.469c17.918,0.013,17.89-9.875,17.89-9.875l0.127-15.131l6.082-16.928
-		l-33.993-0.062l-6.011,17.324V119.937z"/>
-	
-		<rect id="rect4238-3" x="367.602" y="189.845" inkscape:export-ydpi="199.7692" inkscape:export-xdpi="199.7692" inkscape:export-filename="/Users/bearcott/Desktop/portfolio.rebuild/static/icons/storeBack.png" fill="#F1EEE6" width="201.176" height="7.777">
-	</rect>
-	
-		<g id="g3188" transform="matrix(0.82134725,0.05037046,-0.06571636,0.62954852,98.286669,-0.20222993)" inkscape:export-ydpi="199.7692" inkscape:export-xdpi="199.7692" inkscape:export-filename="/Users/bearcott/Desktop/portfolio.rebuild/static/icons/man.png">
-		<path id="path3184" sodipodi:nodetypes="cscc" inkscape:connector-curvature="0" fill="#F6F6F6" d="M494.578,502.179
-			c0,0-9.265-57.772,31.514-62.013c48.886-5.084,46.143,55.726,46.143,55.726L494.578,502.179z"/>
-		
-			<path id="path3959" sodipodi:ry="24.925514" sodipodi:rx="22.627417" sodipodi:cy="399.1723" sodipodi:cx="522.19836" sodipodi:type="arc" fill="#FFE6D4" d="
-			M543.47,414.548c1.269,15.863-6.045,29.39-16.339,30.214c-10.292,0.824-19.665-11.368-20.934-27.232
-			c-1.269-15.862,6.045-29.389,16.338-30.212C532.829,386.495,542.201,398.686,543.47,414.548z"/>
-		
-			<path id="path3964" sodipodi:ry="4.7729707" sodipodi:rx="3.5355339" sodipodi:cy="383.61594" sodipodi:cx="508.40979" sodipodi:type="arc" fill="#383838" d="
-			M518.435,409.636c0.125,1.557-0.383,2.868-1.134,2.928c-0.751,0.06-1.462-1.153-1.586-2.71c-0.125-1.558,0.384-2.868,1.135-2.928
-			C517.601,406.866,518.31,408.078,518.435,409.636z"/>
-		
-			<path id="path3964-6" sodipodi:ry="4.7729707" sodipodi:rx="3.5355339" sodipodi:cy="383.61594" sodipodi:cx="508.40979" sodipodi:type="arc" fill="#383838" d="
-			M527.413,408.918c0.125,1.557-0.384,2.868-1.135,2.928c-0.751,0.06-1.461-1.154-1.585-2.71c-0.125-1.558,0.383-2.868,1.134-2.928
-			C526.578,406.148,527.289,407.36,527.413,408.918z"/>
-		<path id="path3984" inkscape:connector-curvature="0" fill="none" stroke="#4A4A4A" stroke-linecap="round" d="M514.281,422.737
-			c0,0,11.578,4.394,19.617-1.214"/>
-		<path id="path4346" sodipodi:nodetypes="cscsssc" inkscape:connector-curvature="0" fill="#434343" d="M506.908,405.393
-			c0,0,4.132-8.858,7.275-13.122c3.144-4.263,16.068-0.031,16.068-0.031s5.399,15.125,10.058,11.985
-			c4.226-2.845-1.646-10.902-5.926-13.571c-5.555-3.461-23.696-3.37-28.577,5.798C501.973,403.653,506.908,405.393,506.908,405.393z
-			"/>
-		<path id="path4348" sodipodi:nodetypes="cccccc" inkscape:connector-curvature="0" fill="#E9E9E9" d="M507.57,394.306
-			l12.711,3.998l18.654-4.001l-4.427-14.192l-23.465-2.888L507.57,394.306z"/>
-		<path id="path4350" sodipodi:nodetypes="ccccc" inkscape:connector-curvature="0" fill="#F9F9F9" d="M520.646,398.024
-			l-0.506-16.01l-9.501-5.009l-3.135,17.483L520.646,398.024z"/>
-	</g>
+		<path id="path3964-6" sodipodi:type="arc" sodipodi:cx="508.40979" sodipodi:cy="383.61594" sodipodi:rx="3.5355339" sodipodi:ry="4.7729707" fill="#383838" d="
+		M288.045-195.551c0.125,1.557-0.384,2.868-1.135,2.928c-0.751,0.06-1.461-1.154-1.585-2.71c-0.125-1.558,0.383-2.868,1.134-2.928
+		C287.21-198.322,287.921-197.11,288.045-195.551z"/>
+	<path id="path3984" inkscape:connector-curvature="0" fill="none" stroke="#4A4A4A" stroke-linecap="round" d="M274.913-181.733
+		c0,0,11.578,4.394,19.617-1.214"/>
+	<path id="path4346" inkscape:connector-curvature="0" sodipodi:nodetypes="cscsssc" fill="#434343" d="M267.54-199.076
+		c0,0,4.132-8.858,7.275-13.122c3.144-4.263,16.068-0.031,16.068-0.031s5.399,15.125,10.058,11.985
+		c4.226-2.845-1.646-10.902-5.926-13.571c-5.555-3.461-23.696-3.37-28.577,5.797C262.604-200.816,267.54-199.076,267.54-199.076z"/>
+	<path id="path4348" inkscape:connector-curvature="0" sodipodi:nodetypes="cccccc" fill="#E9E9E9" d="M268.202-210.163l12.71,3.998
+		l18.655-4.001l-4.428-14.193l-23.465-2.888L268.202-210.163z"/>
+	<path id="path4350" inkscape:connector-curvature="0" sodipodi:nodetypes="ccccc" fill="#F9F9F9" d="M281.277-206.445l-0.506-16.01
+		l-9.501-5.009l-3.135,17.483L281.277-206.445z"/>
 </g>
 </svg>
