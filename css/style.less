@@ -77,7 +77,7 @@ header {
     overflow: hidden;
     box-sizing: border-box;
     .background {
-        background: url('/img/background.jpg') no-repeat center;
+        background: url('/img/background.jpg') no-repeat center border-box;
         background-size: cover;
         box-sizing: border-box;
         border: 0px solid #FFF8E7;
@@ -88,12 +88,9 @@ header {
         z-index: 0;
     }
     .logo {
-      position: absolute;
-      top: 0;
-      left: 0;
-      width: 40px;
-      height: 40px;
-      background: url('/img/logo.svg')
+        width: 200px;
+        height: 200px;
+        background: url('/img/logo.svg') 100% / contain no-repeat;
     }
     .title {
         height: 8em;
@@ -194,19 +191,41 @@ header {
             box-sizing: border-box;
             opacity: 0;
             border-radius: 5px;
+            pointer-events: all;
             transform: rotateX(20deg) translateY(100px);
             transition:
                 opacity 400ms ease-in-out,
                 transform 500ms cubic-bezier(1,-1,0,2);
+            .card {
+                position: absolute;
+                top: 50%;
+                left: 0;
+                width: 100%;
+                height: 400px;
+                margin-top: -200px;
+            }
+            h1 {
+                margin: 0;
+                margin-bottom: 10px;
+            }
+            .logo {
+                margin: auto;
+                margin-top: 30px;
+            }
+            a, span {
+                margin: 5px 10px;
+                color: #D0AD92;
+                display: inline-block;
+            }
+            a:hover {
+                color: #C73131;
+            }
         }
         &.active {
             & > .content {
                 transform: rotateX(0deg)  translateY(0);
                 opacity: 1;
             }
-        }
-        .logo {
-
         }
     }
 }

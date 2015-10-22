@@ -170,6 +170,9 @@ $(document).ready(function() {
             table.find('.fume').fadeOut(300);
             header.find('.title').finish().fadeOut(300);
             header.find('.contact_card').addClass('active');
+            history.replaceState({}, document.title, "#contact");
+
+
             table.finish().css({randomProperty: 0}).animate({randomProperty: 1},{
                 step : function(now,fx) {
                     $(this).css({
@@ -185,15 +188,22 @@ $(document).ready(function() {
                     });
                     table.find('.plate').css({
                         transform : "translate3d(" + -100*now + "px," +  ((now*now*100-30*now))*8 +  "px,0px) rotateZ(" + 30*now + "deg)"
-                    });table.find('.fume').hide();
+                    });
+                    table.find('.fume').hide();
                 },
-                duration : 800
+                duration : 800,
+                complete: function() {
+                    table.find('.coffee').hide();
+                }
             },'linear');
         };
         this.out = function() {
             this.state = false;
+            table.find('.coffee').show();
             header.find('.title').finish().fadeIn(300);
             header.find('.contact_card').removeClass('active',0);
+            history.replaceState({}, document.title, ".");
+
             table.css({randomProperty: 0}).finish().animate({randomProperty: 1},{
                 step : function(now,fx) {
                     no = 1-now;
@@ -238,6 +248,8 @@ $(document).ready(function() {
     $('.contact').click(function() {
         conan.toggle();
     });
+
+    //check if browser is already contact
 
     /*
     //plate clicking
