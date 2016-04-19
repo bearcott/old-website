@@ -1,89 +1,81 @@
 <!DOCTYPE html>
 <html>
-
 <head>
-    <title>Portfolio of Benny Yan</title>
-    <meta charset="utf-8">
-    <link rel="stylesheet" type="text/css" href="/css/ionicons.min.css">
-    <link rel="stylesheet" type="text/css" href="/css/normalize.css">
-    <link rel="stylesheet" type="text/css" href="/css/style.css">
-    <link rel="shortcut icon" type="image/png" href="/favicon.png"/>
-    <!--<link rel="stylesheet" type="text/less" href="style.less">
-    <script src="less.min.js"></script>-->
-    <script src="/js/jquery.min.js"></script>
-    <script src="/js/javascript.js"></script>
+  <title>Portfolio of Benny Yan</title>
+  <meta charset="utf-8">
+  <meta name="description" content="Hi! The name is Benny Yan and I'm a full stack web developer.
+  I am passionate about design and execution.">
+  <link rel="shortcut icon" type="image/png" href="/favicon.png"/>
+
+  <link rel="stylesheet" type="text/css" href="/css/ionicons.min.css"/>
+  <link rel="stylesheet" type="text/css" href="/css/normalize.css"/>
+  <link rel="stylesheet" type="text/css" href="/css/core.css"/>
+
 </head>
 <body>
-    <section class="wrapper">
-        <header>
-            <div class="background"></div>
-            <!-- <a href="#projects" class="down ion ion-chevron-down"></a>
-            <div class="line"></div> -->
-            <div class="title">
-                <h1>Hi, the name is <span class="tint">Benny Yan</span> and <span class="fillin"><span class="word">I design things.</span></span></h1>
-            </div>
-            <div class="contact_card">
-                <div class="content">
-                    <div class="card">
-                        <div class="logo"></div>
-                        <h1>Bearcott</h1>
-                        <div class="social">
-                            <a href="http://bearcott.com/resume/">Resume</a>&middot;
-                            <a href="https://github.com/bearcott">GitHub</a>&middot;
-                            <a href="https://www.linkedin.com/in/bennyyan">LinkedIn</a>&middot;
-                            <a href="https://www.facebook.com/beeeennnyyyy">Facebook</a>&middot;
-                            <a href="https://twitter.com/bearcott">Twitter</a>
-                            </br>
-                            Email:
-                            <a href="">bear@bearcott.com</a>
-                            Cell:
-                            <span>(707) 500 - 2190</span>
-                            Skype:
-                            <span>bear.cott</span>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <a class="scrollTo">
-                <button class="contact btn"><i class="ion ion-email"></i> Contact Me</button>
-            </a>
-        </header>
-        <div class="table">
-            <div class="coffee">
-                <div class="whole"></div>
-                <div class="plate"></div>
-                <div class="cup"></div>
-                <svg class="fume" x="0px" y="0px" width="280px" height="90px" viewBox="0 0 50 103">
-                    <path fill="#FDD1AC" fill-opacity="0.2">
-                        <animate id="t0"
-                            attributeName="d"
-                            dur="0.8s"
-                            begin="0;t1.end"
-                            from="M0,66.718C0,40,12.663,30.967,15.989,15.391C18.279,4.667,11.124,0,11.124,0s34.333,11.637,33.365,34.287
-                            C43.996,45.824,40.215,49.417,32.946,74c-7,23.666,11.591,27.82,11.591,27.82s-16.906,0.555-28.391-5.052
-                            C2.279,90,0,81.052,0,66.718z"
-                            to="M0.01,59c-0.435-23.319,6.968-24.723,14.667-38.667c8.789-15.917,6-20.333,6-20.333s26.258,1.333,23,37.333
-                          	c-1.041,11.5-10.334,23-7.667,40c3.825,24.382,10.926,24.486,10.926,24.486s-16.658-0.688-29.993-9.636
-                          	C4.131,83.586,0.277,73.332,0.01,59z"
-                        />
-                    </path>
-                    <path fill="#FDD1AC" fill-opacity="0.2">
-                        <animate
-                            id="t1"
-                            attributeName="d"
-                            dur="0.9s"
-                            begin="t0.end"
-                            from="M0.01,59c-0.435-23.319,6.968-24.723,14.667-38.667c8.789-15.917,6-20.333,6-20.333s26.258,1.333,23,37.333
-                          	c-1.041,11.5-10.334,23-7.667,40c3.825,24.382,10.926,24.486,10.926,24.486s-16.658-0.688-29.993-9.636
-                          	C4.131,83.586,0.277,73.332,0.01,59z"
-                            to="M0,66.718C0,40,12.663,30.967,15.989,15.391C18.279,4.667,11.124,0,11.124,0s34.333,11.637,33.365,34.287
-                            C43.996,45.824,40.215,49.417,32.946,74c-7,23.666,11.591,27.82,11.591,27.82s-16.906,0.555-28.391-5.052
-                            C2.279,90,0,81.052,0,66.718z"
-                        />
-                    </path>
-              </svg>
-            </div>
-        </div>
-    </section>
+  <section class="page">
+    <div class="background"></div>
+    <canvas class="logoJumbo"></canvas>
+    <div class="title content">
+      <h1>Hi, the name is <span class="tint">Benny Yan</span> and <span class="fillin">
+        <span class="word">I design things.</span>
+      </span></h1>
+    </div>
+    <div class="social content">
+      <a href="http://bearcott.com/resume/">Resume</a> &middot;
+      <a href="https://github.com/bearcott">GitHub</a> &middot;
+      <a href="https://www.linkedin.com/in/bennyyan">LinkedIn</a> &middot;
+      <a href="https://www.facebook.com/beeeennnyyyy">Facebook</a> &middot;
+      <a href="https://twitter.com/bearcott">Twitter</a>
+      </br>
+      Reach me at
+      <a href="">bear@bearcott.com</a>
+      or call my number
+      <span>(707) 500 - 2190</span>
+      unless you skype?
+      <span>bear.cott</span>
+    </div>
+    <!-- <a>
+      <button class="contact btn"><i class="ion ion-email"></i> Contact Me</button>
+    </a> -->
+    <div class="table">
+      <div class="coffee">
+        <div class="whole"></div>
+        <div class="plate"></div>
+        <div class="cup"></div>
+        <!-- <svg class="fume" x="0px" y="0px" width="280px" height="90px" viewBox="0 0 50 103">
+          <path fill="#FDD1AC" fill-opacity="0.2">
+            <animate id="t0"
+                attributeName="d"
+                dur="0.8s"
+                begin="0;t1.end"
+                from="M0,66.718C0,40,12.663,30.967,15.989,15.391C18.279,4.667,11.124,0,11.124,0s34.333,11.637,33.365,34.287
+                C43.996,45.824,40.215,49.417,32.946,74c-7,23.666,11.591,27.82,11.591,27.82s-16.906,0.555-28.391-5.052
+                C2.279,90,0,81.052,0,66.718z"
+                to="M0.01,59c-0.435-23.319,6.968-24.723,14.667-38.667c8.789-15.917,6-20.333,6-20.333s26.258,1.333,23,37.333
+              	c-1.041,11.5-10.334,23-7.667,40c3.825,24.382,10.926,24.486,10.926,24.486s-16.658-0.688-29.993-9.636
+              	C4.131,83.586,0.277,73.332,0.01,59z"
+            />
+          </path>
+          <path fill="#FDD1AC" fill-opacity="0.2">
+            <animate
+                id="t1"
+                attributeName="d"
+                dur="0.9s"
+                begin="t0.end"
+                from="M0.01,59c-0.435-23.319,6.968-24.723,14.667-38.667c8.789-15.917,6-20.333,6-20.333s26.258,1.333,23,37.333
+              	c-1.041,11.5-10.334,23-7.667,40c3.825,24.382,10.926,24.486,10.926,24.486s-16.658-0.688-29.993-9.636
+              	C4.131,83.586,0.277,73.332,0.01,59z"
+                to="M0,66.718C0,40,12.663,30.967,15.989,15.391C18.279,4.667,11.124,0,11.124,0s34.333,11.637,33.365,34.287
+                C43.996,45.824,40.215,49.417,32.946,74c-7,23.666,11.591,27.82,11.591,27.82s-16.906,0.555-28.391-5.052
+                C2.279,90,0,81.052,0,66.718z"
+            />
+          </path>
+        </svg> -->
+      </div>
+    </div>
+  </section>
+  <script src="/js/jquery.min.js"></script>
+  <script src="/js/core.js"></script>
 </body>
 </html>

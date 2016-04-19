@@ -1,0 +1,92 @@
+//out: core.css, compress: true
+
+@font-face
+  font-family: "Lato";
+  font-weight: normal;
+  src: url('/fonts/Lato-Regular.ttf');
+
+@font-face
+  font-family: "Lato";
+  font-weight: 100;
+  src: url('/fonts/Lato-Light.ttf');
+
+@font-face
+  font-family: "Lato";
+  font-weight: bold;
+  src: url('/fonts/Lato-Bold.ttf');
+
+.clear
+  clear: both;
+
+body
+  background-color: #FFF8E7;
+  color: #AC8C73;
+  font: 14pt/1.2 Lato;
+
+div, header, footer, section
+  position: relative;
+
+h1, h2, h3
+  color: #DD5959;
+  letter-spacing: .1rem;
+  font-size: 2.5rem;
+  margin: 0;
+
+button, a
+  transition: all 200ms ease-in-out;
+  border: none;
+  &:focus
+    outline: none;
+
+button
+  font-weight: bold;
+
+a
+  color: #C73131;
+  text-decoration: none;
+  border-bottom: 1px dashed transparent;
+  &:hover
+    border-color: #C73131;
+
+.page
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  text-align: left;
+  .content
+    position: absolute;
+    width: 80%;
+    margin-left: 10%;
+  .background
+    background: url('/img/background-pixel.png');
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    &:after
+      content: '';
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background: rgba(255,255,255,0.5);
+  .title
+    h1
+      font-size: 36px;
+      line-height: 36px;
+      color: #EAC09E;
+      .tint
+        color: #dd5959;
+    top: 33%;
+    height: 36px;
+    margin-top: -18px;
+  .social
+    line-height: 1.8rem;
+    bottom: 50px;
+    a,span
+      color: #EABE9B;
+      &:hover
+        border-bottom: 1px dashed;
