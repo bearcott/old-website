@@ -57,30 +57,45 @@ a
     position: absolute;
     width: 80%;
     margin-left: 10%;
-  .background
-    background: url('/img/background-pixel.png');
+  canvas {
+    position: absolute;
+    top: 0;
+    left: 0;
+    &.background {
+      image-rendering: optimizeSpeed;
+      image-rendering: -moz-crisp-edges;
+      image-rendering: -webkit-optimize-contrast;
+      image-rendering: -o-crisp-edges;
+      image-rendering: crisp-edges;
+      -ms-interpolation-mode: nearest-neighbor;
+    }
+  }
+  div.background
+    // background: url('/img/background-pixel.png');
     width: 100%;
     height: 100%;
     position: absolute;
     top: 0;
     left: 0;
     z-index: -1;
-    &:after
-      content: '';
-      position: absolute;
-      top: 0;
-      left: 0;
-      width: 100%;
-      height: 100%;
-      background: rgba(255,255,255,0.5);
+    // &:after
+    //   content: '';
+    //   position: absolute;
+    //   top: 0;
+    //   left: 0;
+    //   width: 100%;
+    //   height: 100%;
+    //   background: rgba(255,255,255,0.5);
   .title
     h1
       font-size: 36px;
       line-height: 36px;
       color: #EAC09E;
+      font-weight: 100;
       .tint
         color: #dd5959;
-    top: 33%;
+        font-weight: normal;
+    top: 44%;
     height: 36px;
     margin-top: -18px;
   .social
