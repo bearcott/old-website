@@ -20,11 +20,18 @@ body {
     background: url('../static/background.jpg');
   }
   > .wrapper {
-    padding: 10px;
-    overflow: hidden;
+    position: fixed;
+    height: calc(100% - 100px);
+    width: calc(100% - 100px);
+    top: 0;
+    left: 0;
+    box-sizing: border-box;
+    margin: 50px;
+    overflow: scroll;
   }
 }
 
 .portfolio {
-  height: 100vh;
+  min-height: 100vh;
+  background: #FFF8E7;
 }
