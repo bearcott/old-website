@@ -1,7 +1,7 @@
 import React from "react";
 import ReactDOM from "react-dom";
 import { AppContainer } from "react-hot-loader";
-import Routes from "./routes";
+// import Routes from "./routes";
 import App from "./app";
 
 ReactDOM.render(
@@ -17,7 +17,7 @@ if (module.hot) {
     const NextApp = require("./app").default;
     ReactDOM.render(
       <AppContainer>
-        <NextApp />
+        <App />
       </AppContainer>,
       document.getElementById("app")
     );

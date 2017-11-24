@@ -1,3 +1,30 @@
 body {
-  background: url('../static/background.jpg');
+  background: #FFF8E7;
+  color: #AC8C73;
+}
+
+.header {
+  height: 100vh;
+  .dialogue {
+    color: #ddd;
+  }
+}
+.app {
+  > .bg {
+    position: fixed;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    background: url('../static/background.jpg');
+  }
+  > .wrapper {
+    padding: 10px;
+    overflow: hidden;
+  }
+}
+
+.portfolio {
+  height: 100vh;
 }

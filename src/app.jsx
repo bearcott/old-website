@@ -1,15 +1,19 @@
-import React from 'react';
-import 'normalize.css';
-import './styles/index.scss';
+import React from "react";
+import "normalize.css";
+import "./styles/index.scss";
+import Header from "./components/Header";
+import Portfolio from "./components/Portfolio";
 
 export default class App extends React.Component {
-	render() {
-		return (
-			<div className='App'>
-				<div className="dialogue">
-				<h1>Hi! I'm Benny Yan, a full-stack developer focused on intuitive UX. Currently I'm working on </h1>
-				</div>
-			</div>
-		)
-	}
+  render() {
+    return (
+      <div className="app">
+        <div className="bg"/>
+        <div className="wrapper">
+        <Header />
+        <Portfolio />
+        </div>
+      </div>
+    );
+  }
 }
