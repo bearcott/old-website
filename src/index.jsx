@@ -14,6 +14,7 @@ ReactDOM.render(
 // Hot Module Replacement API
 if (module.hot) {
   module.hot.accept("./app", () => {
+    //need to require during function in order to reload new html
     const NextApp = require("./app").default;
     ReactDOM.render(
       <AppContainer>
