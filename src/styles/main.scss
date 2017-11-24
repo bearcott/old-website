@@ -1,6 +1,27 @@
+$tan: #FFF8E7;
+$pastel-red: #DD5959;
+
 body {
-  background: #FFF8E7;
+  background: $tan;
   color: #AC8C73;
+  font: 14px/1.5 'source sans pro', helvetica, sans-serif;
+}
+
+a {
+	color: #C73131;
+	text-decoration: none;
+	border-bottom: 1px dashed transparent;
+	&:hover {
+		border-color: #C73131;
+	}
+}
+
+h1, h2, h3 {
+    text-transform: uppercase;
+    color: $pastel-red;
+    text-align: center;
+    letter-spacing: .05em;
+    font-size: 2.5em;
 }
 
 .header {
@@ -9,29 +30,42 @@ body {
     color: #ddd;
   }
 }
+
 .app {
-  > .bg {
+  >.bg {
     position: fixed;
     height: 100%;
     width: 100%;
     top: 0;
     left: 0;
-    z-index: -1;
+    z-index: -1; 
+    background-size: cover;
     background: url('../static/background.jpg');
   }
-  > .wrapper {
+  >.frame {
     position: fixed;
-    height: calc(100% - 100px);
-    width: calc(100% - 100px);
+    height: calc(100% - 20px);
+    width: calc(100% - 20px);
+    top: 10px;
+    left: 10px;
+    box-sizing: border-box;
+    border: 5px solid $pastel-red;
+    margin: 10px;
+    z-index: -1; 
+  }
+  >.fill {
+    position: fixed;
+    height: 100%;
+    width: 100%;
     top: 0;
     left: 0;
-    box-sizing: border-box;
-    margin: 50px;
-    overflow: scroll;
+    background: radial-gradient(farthest-corner at 100% 100%, $tan 60%, rgba($tan, 0.6));
+    z-index: -1; 
+  }
+  >.wrapper {
   }
 }
 
 .portfolio {
-  min-height: 100vh;
-  background: #FFF8E7;
+  min-height: 200vh;
 }
