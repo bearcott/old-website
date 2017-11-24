@@ -10,7 +10,7 @@ export default class Portfolio extends React.Component {
         </div>
         <div className="right">
           <div className="spacer" />
-          {new Array(5).fill(true).map(x => <Piece />)}
+          {new Array(10).fill(true).map(x => <Piece />)}
         </div>
       </div>
     );

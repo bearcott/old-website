@@ -1,6 +1,7 @@
 $tan: #FFF8E7;
 $pastel-red: #DD5959;
 $font-tan: #AC8C73;
+$font-tint: #FCF5AF;
 $ez-transition: 200ms all ease-in-out;
 body {
   background: $tan;
@@ -28,11 +29,42 @@ h3 {
   font: 40px/1 'montserrat', sans-serif;
   margin: 0;
 }
-
 .header {
   height: 100vh;
+  min-height: 700px;
   .dialogue {
     color: #ddd;
+    position: absolute;
+    width: 100%;
+    height: calc(100% - 300px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    h1 {
+      color: #f0f0f0;
+      width: 700px;
+      line-height: 1.5;
+      text-transform: none;
+      span {
+        color: $font-tint;
+      }
+    }
+  }
+}
+
+.table {
+  position: fixed;
+  bottom: -100px;
+  left: 0;
+  height: 160px;
+  width: 100%;
+  background: url('../static/wood.png');
+  background-size: contain;
+  box-shadow: 0 -20px 40px rgba(0,0,0,0.1);
+  transition: .4s all cubic-bezier(0.4, 0, 0.32, 2);
+  &.hide {
+    bottom: -200px;
   }
 }
 
@@ -45,7 +77,7 @@ h3 {
     left: 0;
     z-index: -1;
     background-size: cover;
-    background: url('../static/background.jpg');
+    background: url('../static/background.jpg') no-repeat center border-box;
   }
   >.frame {
     position: fixed;
@@ -54,7 +86,7 @@ h3 {
     top: 10px;
     left: 10px;
     box-sizing: border-box;
-    border: 5px solid rgba($font-tan, 0.5);
+    border: 5px solid $pastel-red;
     z-index: -1;
     transition: $ez-transition;
     &.hide {

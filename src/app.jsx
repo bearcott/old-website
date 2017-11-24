@@ -39,12 +39,16 @@ export default class App extends React.Component {
         <div className="bg" />
         <div className="fill" ref={x => (this.fill = x)} />
         <div
-          className={`frame ${(this.state.scrollPos === POS.HEADER && "hide")}`}
+          className={`frame ${this.state.scrollPos === POS.HEADER && "hide"}`}
         />
         <div className="wrapper">
           <Header />
           <Portfolio snapped={this.state.scrollPos === POS.PORTFOLIO} />
         </div>
+        <div
+          className={`table ${this.state.scrollPos === POS.PORTFOLIO &&
+            "hide"}`}
+        />
       </div>
     );
   }
