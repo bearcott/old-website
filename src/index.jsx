@@ -17,7 +17,7 @@ if (module.hot) {
     const NextApp = require("./app").default;
     ReactDOM.render(
       <AppContainer>
-        <App />
+        <NextApp />
       </AppContainer>,
       document.getElementById("app")
     );
