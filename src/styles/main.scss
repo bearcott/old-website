@@ -17,6 +17,10 @@ body {
   clear: both;
 }
 
+.faded {
+  filter: blur(5px);
+}
+
 a {
   color: #C73131;
   text-decoration: none;
@@ -180,10 +184,10 @@ h3 {
   }
   >.frame {
     position: fixed;
-    height: calc(100% - 20px);
-    width: calc(100% - 20px);
-    top: 10px;
-    left: 10px;
+    height: calc(100% - 40px);
+    width: calc(100% - 40px);
+    top: 20px;
+    left: 20px;
     box-sizing: border-box;
     border: 5px solid $pastel-red;
     z-index: -1;
@@ -253,19 +257,84 @@ h3 {
     }
   }
 }
+.demo {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba($tan,0.9);
+  overflow-y: scroll;
+  .exit {
+    width: 40px;
+    height: 40px;
+    position: relative;
+    float: right;
+    vertical-align: bottom;
+    &:after, &:before {
+      content: '';
+      display: block;
+      position: absolute;
+      left: 50%;
+      top: 0;
+      width: 0;
+      height: 100%;
+      border-left: 5px solid;
+      transform: rotate(45deg);
+      transition: $ez-transition;
+    }
+    &:before {
+      transform: rotate(-45deg);
+    }
+    &:hover {
+      cursor: pointer;
+      &:after, &:before {
+        height: 150%;
+        top: -25%;
+      }
+    }
+  }
+  .content {
+    width: 700px;
+    margin: 100px auto;
+    text-align: left;
+    img {
+      height: 2000px;
+      width: 100%;
+      background: #eee;
+      border-radius: 5px;
+      border: none;
+      box-shadow: 0 5px 20px rgba(0,0,0,0.1);
+    }
+  }
+}
 .piece {
   width: 50%;
   height: 400px;
   float: left;
   padding: 15px;
+  transition: $ez-transition;
   &:nth-child(odd) {
     float: right;
+  }
+  &:hover {
+    cursor: pointer;
+    .bg {
+      box-shadow: 0 5px 20px rgba(0,0,0,0.15);
+    }
   }
   .bg {
     background: #eee;
     width: 100%;
     height: 100%;
-    border-radius: 5px;
+    border-radius: 8px;
     box-shadow: 0 5px 20px rgba(0,0,0,0.1);
+    transition: $ez-transition;
+    position: relative;
+    overflow: hidden;
+    video {
+      position: absolute;
+      width: 101%;
+    }
   }
 }

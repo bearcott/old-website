@@ -24,13 +24,22 @@ export default class App extends React.Component {
     super(props);
     this.state = {
       scrollPos: POS.HEADER,
-      isCupSuspended: false
+      isCupSuspended: false,
+      selectedPiece: undefined
     };
   }
   componentDidMount() {
     polyfill();
     this.onScroll();
     window.addEventListener("scroll", this.onScroll);
+  }
+  componentWillUpdate(nextProps, nextState) {
+    //hardcode the window to not scroll
+    if (nextState.selectedPiece >= 0) {
+      document.body.style.overflow = "hidden";
+    } else {
+      document.body.style.overflow = "initial";
+    }
   }
   onScroll = e => {
     const distFirst = window.pageYOffset / window.innerHeight;
@@ -128,6 +137,8 @@ export default class App extends React.Component {
           <Portfolio
             containerRef={x => (this.portfolio = x)}
             snapped={this.state.scrollPos === POS.PORTFOLIO}
+            selectedPiece={this.state.selectedPiece}
+            onClick={piece => this.setState({ selectedPiece: piece })}
             isPast={POSNUM[this.state.scrollPos] > POSNUM[POS.PORTFOLIO]}
           />
           <Footer containerRef={x => (this.footer = x)} />
