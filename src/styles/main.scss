@@ -54,6 +54,7 @@ h3 {
     h1 {
       color: #f0f0f0;
       width: 700px;
+      max-width: 90%;
       line-height: 1.5;
       text-transform: none;
       span {
@@ -79,6 +80,7 @@ h3 {
   width: 100%;
   height: 70vh;
   display: flex;
+  padding-bottom: 100px;
   align-items: center;
   flex-direction: column;
   background: radial-gradient(farthest-corner at 100% 100%, $tan 0, rgba($tan,0) 70%);
@@ -87,9 +89,16 @@ h3 {
     height: 200px;
     background: url('../static/logo.png');
     background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
     opacity: 0.1;
   }
   .social {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 0 30px;
     a, span {
       margin: 5px 10px;
       color: $font-soft;
@@ -296,8 +305,11 @@ h3 {
   }
   .content {
     width: 700px;
+    max-width: 100%;
     margin: 100px auto;
     text-align: left;
+    padding: 0 10px;
+    box-sizing: border-box;
     h1 {
       text-transform: capitalize;
     }
@@ -343,5 +355,43 @@ h3 {
       box-shadow: 0 5px 20px rgba(0,0,0,0.1);
       transition: $ez-transition;
     }
+  }
+}
+
+
+@media (max-width: 1100px) {
+  .portfolio > .right {
+    width: 100%;
+    margin-right: 0;
+  }
+  .portfolio > .left {
+    top: -200px;
+  }
+  .portfolio > .left.snap {
+    position: absolute;
+  }
+}
+
+
+@media (max-width: 700px) {
+  .header .dialogue h1 {
+    font-size: 20px;
+  }
+  .frame {
+    display: none;
+  }
+  .portfolio > .right .piece {
+    width: 100%;
+  }
+  .portfolio > .left {
+    top: 0;
+  }
+  .footer .social {
+    padding: 0 35px;
+    padding-top: 20px;
+  }
+  .footer {
+    height: 100vh;
+    padding-top: 20px;
   }
 }
