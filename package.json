@@ -20,7 +20,8 @@
     "normalize.css": "^7.0.0",
     "react": "^16.1.1",
     "react-dom": "^16.1.1",
-    "sass-loader": "^6.0.6"
+    "sass-loader": "^6.0.6",
+    "smoothscroll-polyfill": "^0.4.0"
   },
   "devDependencies": {
     "babel-cli": "^6.26.0",
