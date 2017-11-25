@@ -152,7 +152,7 @@ const WORKS = {
     images: [
       {
         src: eboogaloo1,
-        desc: "the ui, nothing amazing"
+        desc: "the UI, nothing special"
       },
       {
         src: eboogaloo2,

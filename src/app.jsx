@@ -19,6 +19,22 @@ const POSNUM = {
   CONTACT: 3
 };
 
+const debounce = (func, wait, immediate) => {
+  var timeout;
+  return function() {
+    var context = this,
+      args = arguments;
+    var later = function() {
+      timeout = null;
+      if (!immediate) func.apply(context, args);
+    };
+    var callNow = immediate && !timeout;
+    clearTimeout(timeout);
+    timeout = setTimeout(later, wait);
+    if (callNow) func.apply(context, args);
+  };
+};
+
 export default class App extends React.Component {
   constructor(props) {
     super(props);
@@ -41,7 +57,7 @@ export default class App extends React.Component {
       document.body.style.overflow = "initial";
     }
   }
-  onScroll = e => {
+  onScroll = debounce(e => {
     const distFirst = window.pageYOffset / window.innerHeight;
     const pH = this.portfolio && this.portfolio.offsetHeight;
     const distPort = window.pageYOffset / pH;
@@ -108,7 +124,7 @@ export default class App extends React.Component {
         }
       });
     }
-  };
+  }, 1);
   onContactClick = () => {
     if (this.footer) {
       this.footer.scrollIntoView({ behavior: "smooth" });
