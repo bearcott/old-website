@@ -36,11 +36,13 @@ export default class App extends React.Component {
     const distFirst = window.pageYOffset / window.innerHeight;
     const pH = this.portfolio && this.portfolio.offsetHeight;
     const distPort = window.pageYOffset / pH;
+    //fill opacity
     if (this.fill) {
       if (distFirst < 1) {
         this.fill.style.opacity = distFirst;
       }
     }
+    //toggle view state
     if (
       distPort < 1 &&
       distFirst >= 1 &&
@@ -52,6 +54,7 @@ export default class App extends React.Component {
     } else if (distPort >= 1 && this.state.scrollPos != POS.CONTACT) {
       this.setState({ scrollPos: POS.CONTACT });
     }
+    //suspend the cup
     if (window.pageYOffset > 5) {
       if (!this.state.isCupSuspended) {
         this.setState({ isCupSuspended: !this.state.isCupSuspended });
@@ -61,30 +64,36 @@ export default class App extends React.Component {
         this.setState({ isCupSuspended: !this.state.isCupSuspended });
       }
     }
+    //what to do in header
     if (this.state.scrollPos === POS.HEADER) {
       if (this.title) {
         const childLen = this.title.childNodes.length;
         this.title.childNodes.forEach((x, i) => {
           if (x.nodeName === "SPAN") {
             const opacity = 1 - distFirst * (childLen * 1.4 - i) / 2;
-            if (opacity > -0.1) {
+            if (opacity > -0.2) {
               x.style.opacity = opacity;
-              x.style.top =
-                distFirst * i / childLen / 1.4 * window.innerHeight + "px";
+              // x.style.transform = `translate(0,${distFirst *
+              //   i /
+              //   childLen /
+              //   1.4 *
+              //   window.innerHeight}px)`;
+            } else {
+              x.style.opacity = 0;
             }
           }
         });
       }
       if (this.cup) {
         this.cup.style.transform = `
-          translateY(-${distFirst * 4 * window.innerHeight}px)
+          translate(0,-${distFirst * 4 * window.innerHeight}px)
           rotate(-${distFirst * 100}deg)
         `;
       }
       [this.plateA, this.plateB].forEach(x => {
         if (x) {
           x.style.transform = `
-            translateY(-${distFirst * 3 * window.innerHeight}px)
+            translate(0,-${distFirst * 3 * window.innerHeight}px)
             rotate(${distFirst * 10}deg)
           `;
         }
@@ -101,7 +110,9 @@ export default class App extends React.Component {
       <div className="app">
         <div className="bg" />
         <div
-          className={`fill ${this.state.scrollPos === POS.CONTACT && "rev"}`}
+          className={`fill ${POSNUM[this.state.scrollPos] >=
+            POSNUM[POS.PORTFOLIO] && "port"} ${this.state.scrollPos ===
+            POS.CONTACT && "rev"}`}
           ref={x => (this.fill = x)}
         />
         <div

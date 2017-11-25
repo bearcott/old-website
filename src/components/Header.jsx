@@ -14,9 +14,9 @@ export default ({ titleRef, onContactClick }) => {
           <span className="special">Benny Yan</span>
           {spanify(`, a full-stack developer focused on intuitive
           UX. Currently I'm working on making data visualization with React.`)}
-          <br />
+          <br/>
           <span className="link" onClick={onContactClick}>
-            let's chat some time!
+            Let's get acquainted.
           </span>
         </h1>
       </div>
