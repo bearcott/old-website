@@ -1,6 +1,6 @@
 import iphone from "./static/collection/iphone.mov";
-import iphoneDark from "./static/collection/iphone.mov";
-import iphoneWhite from "./static/collection/iphone.mov";
+import iphoneDark from "./static/collection/iphoneDark.png";
+import iphoneWhite from "./static/collection/iphoneWhite.png";
 export default [
   {
     title: "single element iphone 4",

@@ -7,13 +7,25 @@ const Demo = ({ title, desc, url, images, onClick }) => (
       className="content"
       onClick={e => {
         e.stopPropagation();
-        e.preventDefault();
       }}
     >
       <i className="exit" onClick={() => onClick(undefined)} />
       <h1>{title}</h1>
-      <p>{desc}</p>
-      <img />
+      <p>
+        {desc}
+        <br />
+        {url && (
+          <a href={url} target="_blank">
+            <i className="ion-share" /> view it out in the open
+          </a>
+        )}
+      </p>
+      {images.map((img, i) => (
+        <div key={i} className="img">
+          <img src={img.src} />
+          <span>{img.desc}</span>
+        </div>
+      ))}
     </div>
   </div>
 );
@@ -22,8 +34,8 @@ export default ({ containerRef, snapped, isPast, onClick, selectedPiece }) => {
   return (
     <div id="portfolio" className="portfolio" ref={containerRef}>
       <div
-        className={`left ${(snapped || isPast) && "snap"} ${selectedPiece >= 0 &&
-          "faded"} ${isPast && "passed"}`}
+        className={`left ${(snapped || isPast) && "snap"} ${selectedPiece >=
+          0 && "faded"} ${isPast && "passed"}`}
       >
         <h1>portfolio</h1>
       </div>

@@ -22,12 +22,11 @@ body {
 }
 
 a {
-  color: #C73131;
-  text-decoration: none;
-  border-bottom: 1px dashed transparent;
+  color: $font-soft;
   transition: $ez-transition;
+  text-decoration: none;
   &:hover {
-    border-color: #C73131;
+    color: $pastel-red;
   }
 }
 
@@ -263,8 +262,9 @@ h3 {
   left: 0;
   width: 100%;
   height: 100%;
-  background: rgba($tan,0.9);
+  background: rgba($tan,0.8);
   overflow-y: scroll;
+  z-index: 90001;
   .exit {
     width: 40px;
     height: 40px;
@@ -298,13 +298,25 @@ h3 {
     width: 700px;
     margin: 100px auto;
     text-align: left;
+    h1 {
+      text-transform: capitalize;
+    }
+    p {
+      margin-bottom: 40px;
+    }
     img {
-      height: 2000px;
       width: 100%;
       background: #eee;
       border-radius: 5px;
       border: none;
       box-shadow: 0 5px 20px rgba(0,0,0,0.1);
+    }
+    .img {
+      margin-bottom: 20px;
+      span {
+        color: $font-soft;
+        font-style: italic;
+      }
     }
   }
 }
